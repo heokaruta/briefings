@@ -3,1021 +3,202 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>글로벌 시장 브리핑 | 2026.07.22</title>
-<meta property="og:type" content="article">
-<meta property="og:title" content="글로벌 시장 브리핑 2026.07.22">
-<meta property="og:description" content="메모리 슈퍼사이클에 코스피 6,748 급등 | 마이크론 +12.17%·AMD +8.11% 반도체 랠리 확산 SOXX +5.45%, 삼성전자 +6.15%·SK하이닉스 +4.08% 동반 강세 다만 미 10년물 4.628%·원/달러 1,480원 부담 상존">
-<meta property="og:url" content="https://heokaruta.github.io/briefings">
-<meta property="og:site_name" content="Global Market Daily">
-<meta name="twitter:card" content="summary">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<title>주간 시장 브리핑 | 2026년 7월 31주차</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fafaf8;--bg2:#f2f1ed;--bg3:#e8e7e2;--text:#111110;--text2:#4a4a46;--text3:#8a8a84;--border:#d4d3cd;--border2:#b8b7b0;--up:#15803d;--upbg:#f0fdf4;--uptxt:#14532d;--down:#b91c1c;--downbg:#fef2f2;--downtxt:#7f1d1d;--neu:#6b7280;--neubg:#f3f4f6;--accent:#1a1a18;--blue:#1d4ed8;--bluebg:#eff6ff;--bluetxt:#1e40af;--amber:#854f0b;--amberbg:#fffbeb;--col-l:280px}
+:root{--bg:#fafaf8;--bg2:#f2f1ed;--bg3:#e8e7e2;--text:#111110;--text2:#4a4a46;--text3:#8a8a84;--border:#d4d3cd;--border2:#b8b7b0;--up:#15803d;--upbg:#f0fdf4;--uptxt:#14532d;--down:#b91c1c;--downbg:#fef2f2;--downtxt:#7f1d1d;--neu:#6b7280;--neubg:#f3f4f6;--accent:#1a1a18;--blue:#1d4ed8;--bluebg:#eff6ff;--bluetxt:#1e40af;--amber:#854f0b;--amberbg:#fffbeb}
 @media(prefers-color-scheme:dark){:root{--bg:#141412;--bg2:#1c1c1a;--bg3:#252523;--text:#f0ede8;--text2:#a8a8a2;--text3:#6a6a64;--border:#2e2e2a;--border2:#3e3e3a;--accent:#f0ede8;--upbg:#052e16;--uptxt:#4ade80;--downbg:#450a0a;--downtxt:#f87171;--neubg:#252523;--bluebg:#1e3a5f;--bluetxt:#93c5fd;--amberbg:#451a03}}
 body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.7}
-.wrap{max-width:920px;margin:0 auto;padding:0 20px 40px}.sf{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-.paper-header{border-bottom:3px solid var(--accent);border-top:1px solid var(--accent);padding:14px 0 10px;margin-bottom:4px;text-align:center}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px 40px}
+.sf{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.paper-header{border-bottom:3px solid var(--accent);border-top:1px solid var(--accent);padding:14px 0 10px;text-align:center}
 .paper-name{font-size:11px;font-weight:400;letter-spacing:.25em;color:var(--text3);text-transform:uppercase}
 .paper-date{font-size:11px;color:var(--text3);margin-top:2px}
 .paper-rule{border:none;border-top:1px solid var(--border2);margin:4px 0}
-.history-bar{background:var(--bg2);border-bottom:1px solid var(--border);overflow-x:auto;white-space:nowrap}
-.history-tabs{display:inline-flex;padding:8px 0 0}
-.htab{padding:8px 16px;font-size:11px;font-weight:500;cursor:pointer;color:var(--text3);border:none;background:transparent;border-bottom:2px solid transparent}
-.htab.on{color:var(--accent);border-bottom:2px solid var(--accent);font-weight:700}
-.history-panel{display:none}.history-panel.on{display:block}
-.hist-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}
-.hist-card{background:var(--bg2);border-radius:6px;padding:12px}
-.hist-date{font-size:10px;color:var(--text3);margin-bottom:4px}
-.hist-headline{font-size:11px;font-weight:600;color:var(--text);line-height:1.4}
-.headline-wrap{padding:18px 0 14px;border-bottom:2px solid var(--accent)}
-.headline{font-size:24px;font-weight:700;line-height:1.25;letter-spacing:-.5px;color:var(--accent)}
-.subhead{font-size:13px;color:var(--text2);margin-top:8px;line-height:1.5}
-.badge-row{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
-.badge{font-size:10px;font-weight:600;padding:3px 9px;border-radius:3px}
-.b-up{background:var(--upbg);color:var(--uptxt)}.b-down{background:var(--downbg);color:var(--downtxt)}.b-neu{background:var(--bg3);color:var(--text3)}.b-amber{background:var(--amberbg);color:var(--amber)}
-.crisis-banner{background:#1a1a18;color:#f0ede8;padding:12px 16px;margin-top:10px;border-radius:6px;display:flex;align-items:flex-start;gap:10px}
-.crisis-tag{font-size:10px;font-weight:700;letter-spacing:.08em;background:#15803d;color:#fff;padding:3px 9px;border-radius:2px;flex-shrink:0;margin-top:1px}
-.crisis-text{font-size:12px;line-height:1.6}
-.paper-body{display:grid;grid-template-columns:var(--col-l) 1fr;gap:0;border-bottom:1px solid var(--border)}
-.col-left{border-right:1px solid var(--border2);padding:18px 18px 18px 0}.col-right{padding:18px 0 18px 22px}
-.sec-lbl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);padding-bottom:6px;border-bottom:1px solid var(--border);margin-bottom:10px}
-.idx-item{display:flex;justify-content:space-between;align-items:baseline;padding:7px 0;border-bottom:1px dotted var(--border)}.idx-item:last-child{border-bottom:none}
-.idx-name{font-size:12px;color:var(--text2)}.idx-val{font-size:17px;font-weight:700;color:var(--accent);letter-spacing:-.3px}.idx-chg{font-size:11px;font-weight:600;margin-left:5px}
+/* 주간 수익률 테이블 */
+.perf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+.perf-card{background:var(--bg2);border-radius:6px;padding:12px;border:1px solid var(--border)}
+.perf-name{font-size:10px;color:var(--text3);font-family:-apple-system,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.perf-val{font-size:18px;font-weight:700;color:var(--accent);margin-top:4px}
+.perf-chg{font-size:12px;font-weight:600;margin-top:2px}
 .up{color:var(--up)}.down{color:var(--down)}.neu{color:var(--neu)}
-.mini-item{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px dotted var(--border)}.mini-item:last-child{border-bottom:none}
-.mini-name{font-size:11px;color:var(--text3)}.mini-val{font-size:12px;font-weight:600}
-.chart-box{margin-top:14px}.chart-lbl{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);margin-bottom:5px}.chart-wrap{position:relative;width:100%}
-.checklist-section{margin-top:16px}
-.chk-item{display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px dotted var(--border);cursor:pointer}.chk-item:last-child{border-bottom:none}
-.chk-box{width:14px;height:14px;border:1.5px solid var(--border2);border-radius:3px;flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;transition:all .15s}
-.chk-box.checked{background:var(--accent);border-color:var(--accent)}.chk-check{font-size:9px;color:var(--bg);display:none}.chk-box.checked .chk-check{display:block}
-.chk-text{font-size:11px;color:var(--text2);line-height:1.5}.chk-box.checked+.chk-text{color:var(--text3);text-decoration:line-through}
-.chk-tag{display:inline-block;font-size:9px;font-weight:700;padding:1px 5px;border-radius:2px;margin-right:4px;vertical-align:middle}
-.tag-kr{background:var(--upbg);color:var(--uptxt)}.tag-us{background:var(--bluebg);color:var(--bluetxt)}.tag-macro{background:var(--bg3);color:var(--text3)}.tag-hot{background:var(--downbg);color:var(--downtxt)}.tag-green{background:var(--upbg);color:var(--uptxt)}
-.article-deck{font-size:14px;font-weight:700;color:var(--text);line-height:1.4;padding-bottom:10px;border-bottom:1px solid var(--border);margin-bottom:12px}
-.article-body{font-size:13px;color:var(--text2);line-height:1.8;margin-bottom:12px}
-.fact-tag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--bluebg);color:var(--bluetxt);padding:1px 6px;border-radius:2px;margin-right:5px;vertical-align:middle}
-.int-tag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--upbg);color:var(--uptxt);padding:1px 6px;border-radius:2px;margin-right:5px;vertical-align:middle}
-.warn-tag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--downbg);color:var(--downtxt);padding:1px 6px;border-radius:2px;margin-right:5px;vertical-align:middle}
-.byline{font-size:11px;color:var(--text3);border-top:1px solid var(--border);padding-top:8px;margin-top:8px}
-.hm-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-bottom:12px}
-.hm-cell{border:1px solid var(--border);border-radius:4px;padding:10px;cursor:pointer}
-.hm-up{background:var(--upbg);border-color:#bbf7d0}.hm-down{background:var(--downbg);border-color:#fecaca}.hm-neu{background:var(--neubg);border-color:var(--border)}
-.hm-dir{font-size:15px;font-weight:700;line-height:1;margin-bottom:3px}
-.hm-up .hm-dir{color:var(--up)}.hm-down .hm-dir{color:var(--down)}.hm-neu .hm-dir{color:var(--neu)}
-.hm-name{font-size:11px;font-weight:600}.hm-up .hm-name{color:var(--uptxt)}.hm-down .hm-name{color:var(--downtxt)}.hm-neu .hm-name{color:var(--text2)}
-.hm-note{font-size:10px;margin-top:2px;opacity:.8}.hm-up .hm-note{color:var(--uptxt)}.hm-down .hm-note{color:var(--downtxt)}.hm-neu .hm-note{color:var(--text3)}
-.sec-detail{display:none;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:10px 14px;margin-bottom:8px}.sec-detail.on{display:block}
-.fi-row{display:flex;gap:8px;margin-bottom:6px}.fi-row:last-child{margin-bottom:0}.fi-txt{font-size:12px;color:var(--text2);line-height:1.6}
-.stk-section{margin-bottom:18px}
-.stk-flag{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text3);padding:6px 0;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:6px}
-.stk-row{display:grid;grid-template-columns:90px 1fr auto;gap:0;align-items:stretch;border-bottom:1px solid var(--border);cursor:pointer}
-.stk-row:hover .stk-name-col{background:var(--bg2)}
-.stk-name-col{padding:8px 10px 8px 0;border-right:1px solid var(--border)}.stk-code{font-size:10px;color:var(--text3)}.stk-name{font-size:12px;font-weight:700;color:var(--text)}
-.stk-price-col{padding:8px 10px;display:flex;flex-direction:column;justify-content:center}.stk-headline{font-size:11px;color:var(--text2);line-height:1.5}
-.stk-nums-col{padding:8px 0 8px 10px;text-align:right;min-width:88px;border-left:1px solid var(--border);display:flex;flex-direction:column;justify-content:center}
-.stk-price{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:-.3px}.stk-chg{font-size:11px;font-weight:600;margin-top:2px}
-.expand-arr{font-size:9px;color:var(--text3);margin-left:3px;transition:transform .2s;display:inline-block}.expand-arr.on{transform:rotate(180deg)}
-.stk-detail{display:none;padding:9px 10px 10px;background:var(--bg2);border-bottom:1px solid var(--border)}.stk-detail.on{display:block}
-.conclusion{border-top:2px solid var(--accent);padding:18px 0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-.con-col-title{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text3);padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:10px}
-.con-flow{font-size:13px;color:var(--text2);line-height:1.7}
-.con-item{display:flex;gap:8px;margin-bottom:7px;align-items:flex-start}
-.con-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0;margin-top:6px}
+/* 섹션 레이블 */
+.sec-lbl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);padding-bottom:6px;border-bottom:1px solid var(--border);margin:20px 0 10px}
+/* 하이라이트 카드 */
+.highlight-card{border:1px solid var(--border);border-radius:6px;padding:12px 14px;margin-bottom:8px}
+.hl-title{font-size:13px;font-weight:700;color:var(--text);margin-bottom:4px}
+.hl-detail{font-size:12px;color:var(--text2);line-height:1.65}
+/* 이번주 전망 */
+.strategy-box{background:var(--bg2);border-left:3px solid var(--accent);padding:14px 16px;margin:12px 0;border-radius:0 6px 6px 0}
+.strategy-text{font-size:13px;color:var(--text2);line-height:1.75}
+/* 전략 포인트 */
+.outlook-item{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:flex-start}
+.outlook-item:last-child{border-bottom:none}
+.con-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:6px}
 .dot-g{background:var(--up)}.dot-r{background:var(--down)}.dot-b{background:#3b82f6}.dot-a{background:#d97706}
-.con-txt{font-size:12px;color:var(--text2);line-height:1.5}
-.footer{font-size:10px;color:var(--text3);text-align:center;padding:14px 0;border-top:1px solid var(--border);line-height:1.8}
-@media(max-width:640px){.paper-body{grid-template-columns:1fr}.col-left{border-right:none;border-bottom:1px solid var(--border2);padding:16px 0}.col-right{padding:16px 0}.conclusion{grid-template-columns:1fr}.hist-grid{grid-template-columns:repeat(2,1fr)}}
+.outlook-text{font-size:12px;color:var(--text2);line-height:1.55}
+/* 캘린더 */
+.cal-item{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:baseline}
+.cal-date{font-size:10px;font-weight:700;color:var(--blue);font-family:-apple-system,sans-serif;min-width:52px}
+.cal-country{font-size:9px;background:var(--bg3);padding:1px 5px;border-radius:2px;color:var(--text3);font-family:-apple-system,sans-serif}
+.cal-title{font-size:12px;color:var(--text2);flex:1}
+.cal-scenario{font-size:11px;color:var(--text3);font-style:italic}
+/* 실적 */
+.earn-item{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px dotted var(--border)}
+.earn-name{font-size:12px;font-weight:600;color:var(--text)}
+.earn-date{font-size:11px;color:var(--blue);font-family:-apple-system,sans-serif}
+/* 섹터 로테이션 */
+.sector-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}
+.sector-col{border-radius:6px;padding:10px 12px}
+.sector-strong{background:var(--upbg);border:1px solid #bbf7d0}
+.sector-weak{background:var(--downbg);border:1px solid #fecaca}
+.sector-watch{background:var(--amberbg);border:1px solid #fde68a}
+.sector-label{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;font-family:-apple-system,sans-serif}
+.sector-strong .sector-label{color:var(--uptxt)}
+.sector-weak .sector-label{color:var(--downtxt)}
+.sector-watch .sector-label{color:var(--amber)}
+.sector-tag{font-size:11px;color:var(--text2);display:block;padding:2px 0}
+/* 종목 뷰 */
+.stock-view-row{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:baseline}
+.sv-code{font-size:10px;font-weight:700;color:var(--text3);min-width:70px;font-family:-apple-system,sans-serif}
+.sv-name{font-size:11px;font-weight:700;color:var(--text);min-width:80px}
+.sv-view{font-size:12px;color:var(--text2);flex:1}
+.sv-chg{font-size:11px;font-weight:600;min-width:55px;text-align:right;font-family:-apple-system,sans-serif}
+/* 리스크/기회 */
+.risk-opp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+.risk-box{background:var(--downbg);border:1px solid #fecaca;border-radius:6px;padding:12px}
+.opp-box{background:var(--upbg);border:1px solid #bbf7d0;border-radius:6px;padding:12px}
+.ro-label{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;font-family:-apple-system,sans-serif}
+.risk-box .ro-label{color:var(--downtxt)}.opp-box .ro-label{color:var(--uptxt)}
+.ro-item{font-size:12px;color:var(--text2);padding:3px 0;display:flex;gap:6px}
+.ro-bullet{flex-shrink:0;color:var(--text3)}
+/* 푸터 */
+.footer{font-size:10px;color:var(--text3);text-align:center;padding:14px 0;border-top:1px solid var(--border);line-height:1.8;margin-top:24px}
+@media(max-width:640px){.perf-grid{grid-template-columns:repeat(2,1fr)}.sector-grid{grid-template-columns:1fr}.risk-opp-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="wrap">
+
 <div class="paper-header">
-  <div class="paper-name sf">Global Market Daily</div>
-  <div class="paper-date sf">2026년 7월 22일 수요일 &nbsp;·&nbsp; AI 자동 생성 브리핑</div>
+  <div class="paper-name sf">Weekly Market Briefing</div>
+  <div class="paper-date sf">2026년 7월 31주차 &nbsp;·&nbsp; 2026년 7월 27일 기준 &nbsp;·&nbsp; AI 자동 생성</div>
 </div>
 <hr class="paper-rule">
-<div class="history-bar">
-  <div class="history-tabs sf">
-<button class="htab" onclick="switchHistory(this,'h0716')">7/16</button>
-<button class="htab" onclick="switchHistory(this,'h0717')">7/17</button>
-<button class="htab" onclick="switchHistory(this,'h0718')">7/18</button>
-<button class="htab" onclick="switchHistory(this,'h0719')">7/19</button>
-<button class="htab" onclick="switchHistory(this,'h0721')">7/21</button>
-    <button class="htab on" onclick="switchHistory(this,'h0722')">7/22 오늘</button>
-  </div>
-</div>
-<div id="h0716" class="history-panel">
-<div class="headline-wrap">
-<div class="headline">코스피 7,284 급등, 반도체株 강세 견인</div>
-<div class="subhead sf">코스피 6.24% 급등하며 7,200선 회복<br/>SK하이닉스 8.83%·삼성전기 12.14% 강세<br/>미국 반도체는 마이크론 8% 하락하며 혼조</div>
-<div class="badge-row sf"><span class="badge b-up">코스피급등</span>
-<span class="badge b-up">반도체강세</span>
-<span class="badge b-down">MU-8%</span>
-<span class="badge b-neu">F&amp;G 46</span>
-</div>
-<div class="crisis-banner sf">
-<span class="crisis-tag">반도체</span>
-<span class="crisis-text">한국 반도체 대형주가 코스피 급등을 주도한 반면, 미국 마이크론·AMD는 하락하며 방향이 엇갈렸습니다. 국내외 반도체 흐름의 디커플링에 주목할 시점입니다.</span>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">주요 지수 (7/16 기준)</div>
-<div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">7,284.41</span><span class="idx-chg up sf">▲ +6.24%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">52,658.64</span><span class="idx-chg up sf">▲ +0.29%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&amp;P 500</span><span><span class="idx-val">7,572.40</span><span class="idx-chg up sf">▲ +0.38%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">26,269.23</span><span class="idx-chg up sf">▲ +0.62%</span></span></div>
-<div class="idx-item sf" style="border-top:1px dashed var(--border);margin:4px 0;padding:0"></div>
-<div class="idx-item sf"><span class="idx-name">니케이225</span><span><span class="idx-val">67,743.50</span><span class="idx-chg up sf">▲ +0.74%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">항셍</span><span><span class="idx-val">24,340.73</span><span class="idx-chg up sf">▲ +0.52%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">DAX</span><span><span class="idx-val">25,147.03</span><span class="idx-chg up sf">▲ +0.13%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">FTSE100</span><span><span class="idx-val">10,529.40</span><span class="idx-chg up sf">▲ +0.30%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-<div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.545%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$80.36 (▲ 1.29%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,487.88원 (▼ 0.66%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$4,065.60 (▲ 0.11%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.379 (▲ 0.78%)</span></div>
-<div class="mini-item sf"><span class="mini-name">VIX 변동성</span><span class="mini-val down">15.67 (안정)</span></div>
-<div class="mini-item sf"><span class="mini-name">달러 인덱스</span><span class="mini-val">100.50 (강달러 ▼ 0.44%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear &amp; Greed</span><span class="mini-val">46.3 (neutral)</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📈 이동평균 현황</div>
-<div class="mini-item sf" style="flex-direction:column;align-items:flex-start;padding:6px 0"><span class="mini-name" style="margin-bottom:3px">코스피 <span style="font-size:10px;color:var(--text3)">(혼조)</span></span><span style="font-size:10px">20일 <span class="down">▼15.6%</span>   60일 <span class="down">▼11.1%</span>   120일 <span class="up">▲4.0%</span></span></div>
-<div class="mini-item sf" style="flex-direction:column;align-items:flex-start;padding:6px 0"><span class="mini-name" style="margin-bottom:3px">S&amp;P500 <span style="font-size:10px;color:var(--text3)">(상승추세)</span></span><span style="font-size:10px">20일 <span class="up">▲1.3%</span>   60일 <span class="up">▲2.3%</span>   120일 <span class="up">▲6.7%</span></span></div>
-<div class="mini-item sf" style="flex-direction:column;align-items:flex-start;padding:6px 0"><span class="mini-name" style="margin-bottom:3px">나스닥 <span style="font-size:10px;color:var(--text3)">(상승추세)</span></span><span style="font-size:10px">20일 <span class="up">▲1.2%</span>   60일 <span class="up">▲1.5%</span>   120일 <span class="up">▲8.1%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val up">+23,125억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val up">+1,992억원</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-7</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-20</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-21</span></span></div>
-<div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-<div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-<div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>코스피 급등의 지속성·외국인 수급 확인</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>마이크론 급락 배경 및 메모리 업황 점검</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>미국 10년물 4.545% 등 금리 방향</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>한미 반도체 디커플링 흐름 모니터링</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-green">green</span>원/달러 1,487원, 원화 강세 지속 여부</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="article-deck">반도체가 가른 하루</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 16일 코스피는 6.24% 상승한 7,284.41로 마감했습니다. SK하이닉스가 8.83%, 삼성전기가 12.14%, 삼성전자가 6.27% 오르며 지수 상승을 견인했습니다. 다만 현재 지수는 52주 고가(9,385.59)를 밑도는 수준입니다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 미국 지수는 다우 0.29%, S&amp;P500 0.38%, 나스닥 0.62% 상승했으나, 반도체 개별주는 마이크론 -8.02%, AMD -3.46%, SOXX ETF -2.23%로 하락했습니다. 엔비디아만 0.33% 소폭 상승했습니다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 국내 반도체 강세와 미국 반도체 약세가 엇갈린 점이 특징입니다. 원/달러 환율이 1,487.88원으로 하락(원화 강세)하고 달러인덱스가 100.50으로 약세를 보인 점이 외국인 수급에 우호적으로 작용했을 가능성이 있습니다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> 다만 코스피 이동평균은 20일 -15.6%, 60일 -11.1%로 단기 급락 후 반등 성격일 수 있어 지속성 확인이 필요합니다. 미국 10년물 금리가 4.545%로 높은 수준이고 마이크론 급락 배경도 점검해야 합니다.</div>
-<div class="byline sf">일일 브리핑 · 2026년 7월 16일 (목요일) · AI 자동 생성 · 투자 조언 아님</div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-<div class="hm-grid"><div class="hm-cell hm-up sf" onclick="togglePanel('s1')"><div class="hm-dir">▲▲</div><div class="hm-name">한국 반도체</div><div class="hm-note">대형주 일제 급등</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s2')"><div class="hm-dir">▼</div><div class="hm-name">미국 반도체</div><div class="hm-note">마이크론 급락</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s3')"><div class="hm-dir">▲</div><div class="hm-name">미국 지수</div><div class="hm-note">완만한 상승</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s4')"><div class="hm-dir">▲</div><div class="hm-name">아시아 증시</div><div class="hm-note">동반 상승</div></div>
-<div class="hm-cell hm-neu sf" onclick="togglePanel('s5')"><div class="hm-dir">→</div><div class="hm-name">원자재</div><div class="hm-note">보합권</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s6')"><div class="hm-dir">▼</div><div class="hm-name">양자/테마</div><div class="hm-note">조정</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-<div class="sec-detail on sf" id="s1"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲▲ 한국 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SK하이닉스 +8.83%, 삼성전자 +6.27%, 삼성전기 +12.14%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">국내 반도체 수급 개선 신호이나 이평선 대비 반등 성격 여부 확인 필요</span></div></div>
-<div class="sec-detail sf" id="s2"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 미국 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">MU -8.02%, AMD -3.46%, SOXX -2.23%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">메모리·GPU 개별 이슈 가능성, 한미 반도체 디커플링 주시</span></div></div>
-<div class="sec-detail sf" id="s3"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 미국 지수</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">S&amp;P500 +0.38%, 나스닥 +0.62%, 다우 +0.29%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">전 구간 이평선 위로 상승추세 유지</span></div></div>
-<div class="sec-detail sf" id="s4"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 아시아 증시</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">니케이 +0.74%, 항셍 +0.52%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험선호 회복 흐름, 상해종합 데이터 미확인</span></div></div>
-<div class="sec-detail sf" id="s5"><div style="font-size:11px;font-weight:700;color:var(--neu);margin-bottom:6px">→ 원자재</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">WTI $80.36, 금 +0.11%, 구리 +0.78%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">유가 80달러대, 금·구리 소폭 강세로 안정적</span></div></div>
-<div class="sec-detail sf" id="s6"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 양자/테마</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 -4.53%, Planet Labs -2.58%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고밸류 테마주 차익실현 가능성, 변동성 유의</span></div></div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">종목 등락률 (7/16)</div>
-<div class="chart-lbl sf">🇰🇷 한국</div>
-<div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-<div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-<div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/16 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전자 +6.27% 강세</div></div><div class="stk-nums-col sf"><div class="stk-price">279,500원</div><div class="stk-chg up">▲ +6.27%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">279,500원으로 6.27% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 대형주 반등 흐름 동참, 지수 견인</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">SK하이닉스 8.83% 급등</div></div><div class="stk-nums-col sf"><div class="stk-price">208만원</div><div class="stk-chg up">▲ +8.83%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">2,082,000원으로 8.83% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM 수요 기대감 지속 가능성, 국내 반도체 주도주</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">ISC +5.67% 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">158,500원</div><div class="stk-chg up">▲ +5.67%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">158,500원으로 5.67% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 테스트 소켓 관련주 동반 강세</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전기 두 자릿수 급등</div></div><div class="stk-nums-col sf"><div class="stk-price">141만원</div><div class="stk-chg up">▲ +12.14%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,413,000원으로 12.14% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">부품주 강세, 상승폭 큰 만큼 변동성 유의</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">현대차 완만한 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">434,000원</div><div class="stk-chg up">▲ +2.24%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">434,000원으로 2.24% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">지수 대비 상승폭 제한적, 방어적 성격</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">두산로보틱스 +5.85%</div></div><div class="stk-nums-col sf"><div class="stk-price">70,600원</div><div class="stk-chg up">▲ +5.85%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">70,600원으로 5.85% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">로보틱스 테마 강세, 실적 대비 밸류 점검 필요</span></div></div>
-</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/16 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">마이크론 8% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">$904.28</div><div class="stk-chg down">▼ -8.02%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">904.28달러로 8.02% 하락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">메모리 관련 개별 이슈 가능성, 한국 하이닉스와 대비</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">엔비디아 소폭 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">$212.50</div><div class="stk-chg up">▲ +0.33%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">212.50달러로 0.33% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 약세 속 상대적 방어</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">AMD 3.46% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$529.14</div><div class="stk-chg down">▼ -3.46%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">529.14달러로 3.46% 하락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 섹터 조정 흐름 동조</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체ETF 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$555.27</div><div class="stk-chg down">▼ -2.23%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">555.27달러로 2.23% 하락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">섹터 전반 약세, 개별주 차별화 확인 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">아이온큐 4.53% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$37.51</div><div class="stk-chg down">▼ -4.53%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">37.51달러로 4.53% 하락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">양자컴 테마 조정, 고변동성 유의</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">퀀텀스케이프 보합</div></div><div class="stk-nums-col sf"><div class="stk-price">$6.43</div><div class="stk-chg up">▲ +0.16%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">6.43달러로 0.16% 상승</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">배터리 테마 관망세</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">Planet Labs 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$24.90</div><div class="stk-chg down">▼ -2.58%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">24.90달러로 2.58% 하락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위성/우주 테마 차익실현 가능성</span></div></div>
-</div>
-</div>
-</div>
-<div class="paper-body" style="border-top:2px solid var(--accent)">
-<div class="col-left"><div class="sec-lbl sf">🌏 글로벌 뉴스</div></div>
-<div class="col-right"><div style="font-size:11px;color:var(--text3);padding-top:6px">평일 — 주말 글로벌 뉴스 브리핑만 제공됩니다</div></div>
-</div>
-<div class="conclusion sf">
-<div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">코스피가 반도체 대형주 급등에 힘입어 6.24% 상승했습니다. 반면 미국 반도체는 마이크론 급락으로 약세를 보이며 한미 흐름이 엇갈렸습니다. 원화 강세와 약달러가 국내 수급에 우호적으로 작용했을 가능성이 있습니다.</div></div>
-<div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">한국 반도체 대형주 일제 급등</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">미국 마이크론 8% 급락</div></div>
-<div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">원/달러 1,487원, 원화 강세</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">코스피 단기 이평선 하회, 반등 지속성 확인</div></div>
-</div>
-<div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">HBM·메모리 업황 사이클 방향성</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">미국 장기금리 5%대 30년물 부담</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">미국 지수 전 구간 이평선 위 상승추세</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">고밸류 양자·로보틱스 테마 변동성</div></div>
-</div>
-</div>
-</div>
-<div id="h0717" class="history-panel">
-<div class="headline-wrap">
-<div class="headline">코스피 6,820선 6.37% 급락…반도체 투매</div>
-<div class="subhead sf">삼성전자 -8.77%, SK하이닉스 -11.53% 폭락<br/>미 나스닥 -1.47%, 필라델피아 반도체 SOXX -4.46% 동반 약세<br/>미 10년물 4.569%·30년물 5%대 진입에 위험자산 회피</div>
-<div class="badge-row sf"><span class="badge b-down">코스피 -6.37%</span>
-<span class="badge b-down">하이닉스 -11.5%</span>
-<span class="badge b-down">반도체 투매</span>
-<span class="badge b-amber">금리 부담</span>
-<span class="badge b-neu">금 3,998$</span>
-</div>
-<div class="crisis-banner sf">
-<span class="crisis-tag">반도체쇼크</span>
-<span class="crisis-text">메모리 고점 논란과 미국 장기금리 급등이 겹치며 한미 반도체주가 동반 급락. 코스피는 하루 6% 넘게 빠지며 심리 급랭.</span>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">주요 지수 (7/17 기준)</div>
-<div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">6,820.60</span><span class="idx-chg down sf">▼ -6.37%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">52,552.97</span><span class="idx-chg down sf">▼ -0.20%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&amp;P 500</span><span><span class="idx-val">7,533.77</span><span class="idx-chg down sf">▼ -0.51%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">25,881.95</span><span class="idx-chg down sf">▼ -1.47%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-<div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.569%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$79.33 (▲ 0.48%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,485.22원 (▼ 0.07%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$3,998.00 (▲ 0.31%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.202 (▼ 1.49%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear &amp; Greed</span><span class="mini-val">42.6 (fear)</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val down">-13,814억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val down">-23,832억원</span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전자</span><span class="mini-val"><span class="down">외-826,076</span></span></div>
-<div class="mini-item sf"><span class="mini-name">SK하이닉스</span><span class="mini-val"><span class="down">외-469,637</span></span></div>
-<div class="mini-item sf"><span class="mini-name">ISC</span><span class="mini-val"><span class="up">외+25,247</span></span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전기</span><span class="mini-val"><span class="down">외-54,649</span></span></div>
-<div class="mini-item sf"><span class="mini-name">현대차</span><span class="mini-val"><span class="up">외+102,350</span></span></div>
-<div class="mini-item sf"><span class="mini-name">두산로보틱스</span><span class="mini-val"><span class="down">외-7,693</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-6</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-19</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-20</span></span></div>
-<div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-<div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-<div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>미 30년물 5% 진입 지속 여부 확인</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>마이크론·엔비디아 실적·가이던스 점검</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>외국인 반도체 순매도 규모 모니터링</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>원/달러 1,485원 고환율 지속성</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-green">green</span>금 3,998$ 안전자산 수급 흐름</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="article-deck">반도체가 무너진 하루</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 17일 코스피는 6.37% 급락한 6,820.60에 마감했다. 삼성전자가 8.77% 내린 255,000원, SK하이닉스가 11.53% 급락한 1,842,000원을 기록하며 지수 하락을 주도했다. 52주 고가 9,385선 대비 큰 폭 조정 국면이다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 간밤 미국 증시도 나스닥이 1.47% 하락했다. 마이크론 -5.65%, AMD -5.33%, 엔비디아 -2.40%, 반도체 ETF SOXX -4.46%로 기술·반도체 섹터 전반이 약세를 보였다. 미 10년물 금리는 4.569%, 30년물은 5.098%로 상승하며 고밸류 성장주에 부담을 줬다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 장기금리 상승은 할인율을 높여 고평가 기술주의 밸류에이션을 압박한다. 여기에 메모리 업사이클 고점 우려, AI 투자 과열 논란이 겹치며 반도체가 매물 소나기를 맞았다. 원/달러가 1,485원대 고환율에 머문 점도 외국인 수급에 부담이다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> Fear &amp; Greed 지수는 42.6(공포) 구간으로, 심리가 위축됐다. 30년물 5% 진입과 유가 79달러대 흐름이 인플레·긴축 재점화 우려를 자극할 수 있어 단기 변동성 확대에 유의해야 한다.</div>
-<div class="byline sf">일일 브리핑 · 2026년 7월 17일 (금요일) · AI 자동 생성 · 투자 조언 아님</div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-<div class="hm-grid"><div class="hm-cell hm-down sf" onclick="togglePanel('s1')"><div class="hm-dir">▼▼</div><div class="hm-name">반도체</div><div class="hm-note">메모리·파운드리 동반 급락</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s2')"><div class="hm-dir">▼</div><div class="hm-name">IT부품</div><div class="hm-note">기판·MLCC 동반 약세</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s3')"><div class="hm-dir">▼</div><div class="hm-name">미국빅테크</div><div class="hm-note">금리 상승에 밸류 압박</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s4')"><div class="hm-dir">▼</div><div class="hm-name">양자·테마</div><div class="hm-note">고베타 테마 급락</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s5')"><div class="hm-dir">▼</div><div class="hm-name">자동차</div><div class="hm-note">상대적 방어</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s6')"><div class="hm-dir">▲</div><div class="hm-name">금·안전자산</div><div class="hm-note">안전선호 유입</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-<div class="sec-detail on sf" id="s1"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼▼ 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전자 -8.77%, SK하이닉스 -11.53%, SOXX -4.46%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고점 논란·금리 부담 이중 악재, 낙폭 과대 구간 진입</span></div></div>
-<div class="sec-detail sf" id="s2"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ IT부품</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전기 -9.62%, ISC -8.52%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 밸류체인 연쇄 조정, 수요 회복 확인 필요</span></div></div>
-<div class="sec-detail sf" id="s3"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 미국빅테크</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">엔비디아 -2.40%, 나스닥 -1.47%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">장기금리 4.5% 상회 시 성장주 변동성 확대</span></div></div>
-<div class="sec-detail sf" id="s4"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 양자·테마</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 -6.42%, 퀀텀스케이프 -8.16%, Planet Labs -11.29%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험회피 국면에서 실적 없는 테마 우선 이탈</span></div></div>
-<div class="sec-detail sf" id="s5"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 자동차</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 -2.07%로 낙폭 제한</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">밸류·배당 매력, 반도체 대비 방어적 성격</span></div></div>
-<div class="sec-detail sf" id="s6"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 금·안전자산</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">금 3,998$ +0.31%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험회피 시 헤지 수요, 실질금리 상승은 상단 제약</span></div></div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">종목 등락률 (7/17)</div>
-<div class="chart-lbl sf">🇰🇷 한국</div>
-<div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-<div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-<div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/17 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전자 8.77% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">255,000원</div><div class="stk-chg down">▼ -8.77%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">255,000원, 반도체 투매에 지수 최대 낙폭 견인</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">메모리 고점 논란·금리 부담, 실적 가이던스 확인 전 관망</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">SK하이닉스 두 자릿수 폭락</div></div><div class="stk-nums-col sf"><div class="stk-price">184만원</div><div class="stk-chg down">▼ -11.53%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,842,000원 -11.53%로 낙폭 최대</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM 고점 우려 반영, 고밸류 부담 해소 과정</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">ISC 반도체 부품 약세</div></div><div class="stk-nums-col sf"><div class="stk-price">145,000원</div><div class="stk-chg down">▼ -8.52%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">145,000원 -8.52%</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">테스트 소켓 수요 둔화 우려, 반도체 반등과 동행</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전기 9.62% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">128만원</div><div class="stk-chg down">▼ -9.62%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,277,000원, MLCC·기판 동반 조정</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">IT수요 회복 지연, 낙폭 과대 여부 점검</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">현대차 상대적 선방</div></div><div class="stk-nums-col sf"><div class="stk-price">425,000원</div><div class="stk-chg down">▼ -2.07%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">425,000원 -2.07%로 방어</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">저PER·배당 매력, 위험회피 국면 방어주</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">두산로보틱스 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">67,000원</div><div class="stk-chg down">▼ -5.10%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">67,000원 -5.10%</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고밸류 성장주 매물, 로봇 테마 수급 위축</span></div></div>
-</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/17 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">마이크론 5.65% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$853.20</div><div class="stk-chg down">▼ -5.65%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">853.20$, 메모리 고점 논란에 급락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM 사이클 피크 우려, 가격 협상 결과 주시</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">엔비디아 2.40% 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">$207.40</div><div class="stk-chg down">▼ -2.40%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">207.40$, 금리 상승에 밸류 압박</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 리더십 유효하나 단기 변동성 확대</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">AMD 5.33% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$500.94</div><div class="stk-chg down">▼ -5.33%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">500.94$, 반도체 섹터 약세 동반</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 가속기 경쟁, 실적 모멘텀 확인 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체 ETF 4.46% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">$530.50</div><div class="stk-chg down">▼ -4.46%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">530.50$, 섹터 전반 투매</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리·고점 우려 이중 악재, 분할 대응 유효</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">아이온큐 6.42% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">$35.10</div><div class="stk-chg down">▼ -6.42%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">35.10$, 고베타 테마 이탈</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험회피 국면 우선 매도 대상</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">퀀텀스케이프 8.16% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$5.91</div><div class="stk-chg down">▼ -8.16%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">5.91$, 실적 없는 테마 급락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리 부담 직격, 변동성 극대화</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">Planet Labs 11.29% 폭락</div></div><div class="stk-nums-col sf"><div class="stk-price">$22.09</div><div class="stk-chg down">▼ -11.29%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">22.09$, 낙폭 최대</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위성 테마 차익실현, 리스크 관리 필요</span></div></div>
-</div>
-</div>
-</div>
-<div class="conclusion sf">
-<div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">반도체 고점 논란과 미 장기금리 급등이 겹치며 코스피가 6% 넘게 급락했다. 삼성전자·SK하이닉스 등 대형 반도체주가 낙폭을 주도했고, 미국·테마주까지 위험회피가 확산됐다. 심리는 공포 구간으로 진입했다.</div></div>
-<div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">SK하이닉스 -11.53%, 메모리 고점 우려 정면 반영</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">미 30년물 5.098%로 성장주 밸류 부담 확대</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">원/달러 1,485원 고환율, 외국인 수급 부담</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">금 3,998$ 안전자산 선호 유입</div></div>
-</div>
-<div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">HBM·AI 메모리 수요의 구조적 지속성 점검</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">연준 금리 경로와 장기금리 안정 여부</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">낙폭 과대 반도체 대형주의 밸류 매력 재평가</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">고환율·고금리 병존 시 위험자산 변동성 확대</div></div>
-</div>
-</div>
-</div>
-<div id="h0718" class="history-panel">
-<div class="headline-wrap">
-<div class="headline">코스피 6.37% 급락 6,820선…반도체 투매 확산</div>
-<div class="subhead sf">삼성전자 -8.77%, SK하이닉스 -11.53% 동반 급락<br/>미 국채 30년물 5% 돌파, 원/달러 1,487원 고착<br/>공포·탐욕지수 37 공포 구간, 위험자산 회피 심화</div>
-<div class="badge-row sf"><span class="badge b-down">코스피 -6.37%</span>
-<span class="badge b-down">하이닉스 -11.5%</span>
-<span class="badge b-amber">금리 부담</span>
-<span class="badge b-down">F&amp;G 37</span>
-</div>
-<div class="crisis-banner sf">
-<span class="crisis-tag">반도체투매</span>
-<span class="crisis-text">고금리 장기화 우려와 AI 밸류에이션 조정이 겹치며 국내 반도체 대형주가 두 자릿수 급락했습니다. 원/달러 1,487원 고환율이 외국인 이탈을 부추기고 있습니다.</span>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">주요 지수 (7/18 기준)</div>
-<div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">6,820.60</span><span class="idx-chg down sf">▼ -6.37%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">52,146.42</span><span class="idx-chg down sf">▼ -0.77%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&amp;P 500</span><span><span class="idx-val">7,457.69</span><span class="idx-chg down sf">▼ -1.01%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">25,520.24</span><span class="idx-chg down sf">▼ -1.40%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-<div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.541%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$81.77 (▲ 3.57%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,487.46원 (▲ 0.08%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$4,023.00 (▲ 0.94%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.271 (▼ 0.41%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear &amp; Greed</span><span class="mini-val">37.1 (fear)</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val down">-13,814억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val down">-23,832억원</span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전자</span><span class="mini-val"><span class="down">외-826,076</span></span></div>
-<div class="mini-item sf"><span class="mini-name">SK하이닉스</span><span class="mini-val"><span class="down">외-469,637</span></span></div>
-<div class="mini-item sf"><span class="mini-name">ISC</span><span class="mini-val"><span class="up">외+25,247</span></span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전기</span><span class="mini-val"><span class="down">외-54,649</span></span></div>
-<div class="mini-item sf"><span class="mini-name">현대차</span><span class="mini-val"><span class="up">외+102,350</span></span></div>
-<div class="mini-item sf"><span class="mini-name">두산로보틱스</span><span class="mini-val"><span class="down">외-7,693</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-5</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-18</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-19</span></span></div>
-<div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-<div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-<div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>외국인 반도체 순매도 규모 및 지속 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>미 국채 30년물 5% 안착 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>원/달러 1,500원 저항선 방어 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>AI 반도체 사이클 고점 논쟁 전개</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-green">green</span>공포·탐욕지수 37 공포 구간 반등 신호</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="article-deck">고금리發 위험회피, 반도체 강타</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 18일 코스피는 전일 대비 6.37% 급락한 6,820.60에 마감했다. 52주 고가 9,385.59 대비 크게 후퇴한 수준으로, 삼성전자(-8.77%), SK하이닉스(-11.53%) 등 시가총액 상위 반도체주가 지수 하락을 주도했다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 미국 증시도 동반 약세를 보였다. 나스닥이 1.40% 하락했고 엔비디아(-2.21%), AMD(-1.03%), SOXX 반도체 ETF(-1.64%)가 조정을 받았다. 미 국채 10년물은 4.541%, 30년물은 5.064%로 상승하며 고금리 부담이 재부각됐다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 미 장기금리가 5%대에 안착하면서 고밸류 성장주와 반도체 섹터의 할인율 부담이 커졌다. 원/달러 환율이 1,487원 수준까지 오른 점도 외국인 수급에 악재로 작용했다. 안전자산 선호가 강화되며 금은 4,023달러로 0.94% 상승했다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> AI 반도체 사이클 고점 논쟁, 연준의 금리 인하 지연 가능성, 고환율 지속이 단기 리스크다. 공포·탐욕지수 37로 공포 구간에 진입한 만큼 변동성 확대에 대비한 방어적 대응이 필요하다.</div>
-<div class="byline sf">일일 브리핑 · 2026년 7월 18일 (토요일) · AI 자동 생성 · 투자 조언 아님</div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-<div class="hm-grid"><div class="hm-cell hm-down sf" onclick="togglePanel('s1')"><div class="hm-dir">▼▼</div><div class="hm-name">반도체</div><div class="hm-note">대형주 두 자릿수 급락</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s2')"><div class="hm-dir">▼</div><div class="hm-name">IT부품</div><div class="hm-note">세트 부진에 동반 약세</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s3')"><div class="hm-dir">▼</div><div class="hm-name">자동차</div><div class="hm-note">상대적 선방</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s4')"><div class="hm-dir">▼</div><div class="hm-name">로보틱스</div><div class="hm-note">성장주 조정</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s5')"><div class="hm-dir">▼</div><div class="hm-name">美기술주</div><div class="hm-note">AI주 차익실현</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s6')"><div class="hm-dir">▲</div><div class="hm-name">안전자산</div><div class="hm-note">금 강세</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-<div class="sec-detail on sf" id="s1"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼▼ 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SK하이닉스 -11.53%, 삼성전자 -8.77%, 삼성전기 -9.62%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고금리·AI 밸류 조정 이중 압박, 반등 시점 관망</span></div></div>
-<div class="sec-detail sf" id="s2"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ IT부품</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">ISC -8.52%, 삼성전기 -9.62%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 후공정·부품 수요 둔화 우려 반영</span></div></div>
-<div class="sec-detail sf" id="s3"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 자동차</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 -2.07%로 지수 대비 하락폭 제한</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율 수혜와 실적 방어력, 방어주 성격 부각</span></div></div>
-<div class="sec-detail sf" id="s4"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 로보틱스</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">두산로보틱스 -5.10%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고금리 국면서 미래 성장주 밸류 부담 확대</span></div></div>
-<div class="sec-detail sf" id="s5"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 美기술주</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">엔비디아 -2.21%, AMD -1.03%, 나스닥 -1.40%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리 상승기 밸류에이션 재평가 진행</span></div></div>
-<div class="sec-detail sf" id="s6"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 안전자산</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">금 4,023달러 +0.94%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험회피 심리로 실물자산 선호, 헤지 수요 유입</span></div></div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">종목 등락률 (7/18)</div>
-<div class="chart-lbl sf">🇰🇷 한국</div>
-<div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-<div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-<div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/18 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전자 -8.77% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">255,000원</div><div class="stk-chg down">▼ -8.77%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">255,000원 마감, 반도체 투매에 낙폭 확대</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고금리·환율 부담 속 외국인 수급 이탈, 단기 변동성 주의</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">SK하이닉스 -11.53% 폭락</div></div><div class="stk-nums-col sf"><div class="stk-price">184만원</div><div class="stk-chg down">▼ -11.53%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,842,000원, 대형주 중 최대 낙폭</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM 기대 선반영 후 밸류 조정, AI 사이클 논쟁 부담</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">ISC -8.52% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">145,000원</div><div class="stk-chg down">▼ -8.52%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">145,000원, 후공정 테스트 소켓주 동반 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 심리 악화에 중소형주 낙폭 확대</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전기 -9.62% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">128만원</div><div class="stk-chg down">▼ -9.62%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,277,000원, MLCC·부품주 부진</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">세트 수요 둔화 우려, 반등엔 반도체 심리 개선 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">현대차 -2.07% 선방</div></div><div class="stk-nums-col sf"><div class="stk-price">425,000원</div><div class="stk-chg down">▼ -2.07%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">425,000원, 지수 대비 하락폭 제한</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율 수혜와 실적 안정성으로 방어주 부각</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">두산로보틱스 -5.10% 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">67,000원</div><div class="stk-chg down">▼ -5.10%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">67,000원, 성장주 밸류 부담</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고금리 국면 미래 성장주 압박, 실적 가시성 확인 필요</span></div></div>
-</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/18 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">마이크론 -0.50% 소폭 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$848.95</div><div class="stk-chg down">▼ -0.50%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">848.95달러, 반도체 약세 속 상대적 선방</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·메모리 업사이클 기대 유지, 방어적 흐름</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">엔비디아 -2.21% 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">$202.81</div><div class="stk-chg down">▼ -2.21%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">202.81달러, AI 대표주 차익실현</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리 상승기 고밸류 부담, 실적 모멘텀은 유효</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">AMD -1.03% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$495.76</div><div class="stk-chg down">▼ -1.03%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">495.76달러, 반도체 동반 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 가속기 경쟁 구도, 중기 성장성 주목</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체ETF -1.64% 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">$521.81</div><div class="stk-chg down">▼ -1.64%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">521.81달러, 섹터 전반 매도세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">업종 전반 위험회피, 분할 접근 유효</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">아이온큐 -0.91% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$34.78</div><div class="stk-chg down">▼ -0.91%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">34.78달러, 양자컴 테마 조정</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고변동 테마주, 위험선호 위축 국면 부진</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">퀀텀스케이프 -0.76% 약세</div></div><div class="stk-nums-col sf"><div class="stk-price">$5.86</div><div class="stk-chg down">▼ -0.76%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">5.86달러, 전고체 배터리 테마 부진</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">상용화 지연 우려, 장기 관점 접근 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">Planet Labs +1.72% 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">$22.47</div><div class="stk-chg up">▲ +1.72%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">22.47달러, 위성·우주 테마 강세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">방산·지구관측 수요 부각, 개별 모멘텀 유효</span></div></div>
-</div>
-</div>
-</div>
-<div class="conclusion sf">
-<div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">고금리 장기화 우려와 AI 밸류에이션 조정이 겹치며 코스피가 6.37% 급락했다. 반도체 대형주가 두 자릿수 낙폭을 보였고, 고환율이 외국인 이탈을 부추겼다. 안전자산 선호가 강화되며 금이 강세를 보였다.</div></div>
-<div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">SK하이닉스 -11.5% 등 반도체 투매 확산</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">미 30년물 5% 돌파, 고금리 부담 재부각</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">원/달러 1,487원 고환율 외국인 수급 악재</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">금 4,023달러 상승, 위험회피 헤지 수요</div></div>
-</div>
-<div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">AI 반도체 수요 사이클 지속 여부 점검</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">연준 금리 인하 경로와 시점 재조정</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">현대차 등 고환율 수혜 실적주 관심</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">고환율·고금리 동반 지속 시 증시 하방 압력</div></div>
-</div>
-</div>
-</div>
-<div id="h0719" class="history-panel">
-<div class="headline-wrap">
-<div class="headline">코스피 6,820선 급락, 반도체 -8~11% 동반 매도</div>
-<div class="subhead sf">미·이란 전쟁 재점화로 유가·금리 급등<br/>삼성전자 -8.77%, SK하이닉스 -11.53% 폭락<br/>미 10년물 4.54%·30년물 5.06% 부담 확대</div>
-<div class="badge-row sf"><span class="badge b-down">코스피 -6.37%</span>
-<span class="badge b-down">반도체 급락</span>
-<span class="badge b-amber">유가 급등</span>
-<span class="badge b-down">금리 부담</span>
-</div>
-<div class="crisis-banner sf">
-<span class="crisis-tag">지정학리스크</span>
-<span class="crisis-text">미·이란 전쟁 격화와 쿠웨이트 에너지 시설 피격으로 유가가 급등하고, 안전자산 선호 속 미 국채금리 상승이 위험자산 전반을 압박하고 있습니다.</span>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">주요 지수 (7/19 기준)</div>
-<div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">6,820.60</span><span class="idx-chg down sf">▼ -6.37%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">52,146.42</span><span class="idx-chg down sf">▼ -0.77%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&amp;P 500</span><span><span class="idx-val">7,457.69</span><span class="idx-chg down sf">▼ -1.01%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">25,520.24</span><span class="idx-chg down sf">▼ -1.40%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-<div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.541%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$82.49 (▲ 4.48%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,487.46원 (▲ 0.08%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$4,012.70 (▲ 0.68%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.220 (▼ 1.21%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear &amp; Greed</span><span class="mini-val">37.1 (fear)</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val down">-13,814억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val down">-23,832억원</span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전자</span><span class="mini-val"><span class="down">외-826,076</span></span></div>
-<div class="mini-item sf"><span class="mini-name">SK하이닉스</span><span class="mini-val"><span class="down">외-469,637</span></span></div>
-<div class="mini-item sf"><span class="mini-name">ISC</span><span class="mini-val"><span class="up">외+25,247</span></span></div>
-<div class="mini-item sf"><span class="mini-name">삼성전기</span><span class="mini-val"><span class="down">외-54,649</span></span></div>
-<div class="mini-item sf"><span class="mini-name">현대차</span><span class="mini-val"><span class="up">외+102,350</span></span></div>
-<div class="mini-item sf"><span class="mini-name">두산로보틱스</span><span class="mini-val"><span class="down">외-7,693</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-4</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-17</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-18</span></span></div>
-<div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-<div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-<div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>미·이란 전쟁 전개 및 유가 추이 확인</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>미 10년물 4.5%·30년물 5% 돌파 지속 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>원/달러 1,490원선 방어 및 외국인 수급</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>반도체 대형주 낙폭 과대 반등 신호</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>연준 인사 발언 및 인플레 지표 대응</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="article-deck">위험회피 파도, 반도체 직격</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 코스피는 전일 대비 6.37% 급락한 6,820.60에 마감했다. 52주 고가 9,385.59 대비 크게 후퇴한 수준으로, 삼성전자(-8.77%), SK하이닉스(-11.53%) 등 대형 반도체주가 지수 하락을 주도했다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 미국 증시도 동반 하락해 나스닥이 1.40%, S&amp;P500이 1.01% 떨어졌다. 엔비디아 -2.21%, SOXX -1.64% 등 반도체·기술주 약세가 두드러졌다. 미 10년물 금리는 4.541%, 30년물은 5.064%까지 상승했다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 미·이란 무력충돌 재점화로 WTI 유가가 82.49달러로 치솟고 금은 4,012.70달러로 상승했다. 위험회피 심리 속에 원/달러 환율은 1,487원대까지 밀려 외국인 자금 이탈 우려가 커지고 있다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> 고금리·고유가·고환율의 삼중고가 반도체 밸류에이션에 부담을 주고 있어, 지정학 리스크 완화와 연준의 통화정책 방향이 단기 반등의 핵심 변수로 지목된다.</div>
-<div class="byline sf">일일 브리핑 · 2026년 7월 19일 (일요일) · AI 자동 생성 · 투자 조언 아님</div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-<div class="hm-grid"><div class="hm-cell hm-down sf" onclick="togglePanel('s1')"><div class="hm-dir">▼▼</div><div class="hm-name">반도체</div><div class="hm-note">대형주 두 자릿수 급락</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s2')"><div class="hm-dir">▼</div><div class="hm-name">자동차</div><div class="hm-note">상대적 방어</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s3')"><div class="hm-dir">▼</div><div class="hm-name">미국 기술주</div><div class="hm-note">AI주 조정</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s4')"><div class="hm-dir">▼</div><div class="hm-name">양자컴퓨팅</div><div class="hm-note">소폭 약세</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s5')"><div class="hm-dir">▲</div><div class="hm-name">원자재/금</div><div class="hm-note">안전자산·유가 상승</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s6')"><div class="hm-dir">▼</div><div class="hm-name">채권</div><div class="hm-note">금리 급등</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-<div class="sec-detail on sf" id="s1"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼▼ 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SK하이닉스 -11.53%, 삼성전자 -8.77%, SOXX -1.64%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고금리·고유가 부담과 AI 투자 재평가로 변동성 확대, 저가 매수는 신중히 접근</span></div></div>
-<div class="sec-detail sf" id="s2"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 자동차</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 -2.07%로 지수 대비 선방</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율은 수출주에 우호적이나 유가 상승·수요둔화 우려 병존</span></div></div>
-<div class="sec-detail sf" id="s3"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 미국 기술주</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">엔비디아 -2.21%, AMD -1.03%, 나스닥 -1.40%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리 상승 국면에서 고밸류 성장주 부담, 실적 시즌 확인 필요</span></div></div>
-<div class="sec-detail sf" id="s4"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 양자컴퓨팅</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 -0.91%, 퀀텀스케이프 -0.76%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">테마 변동성 큰 구간, 리스크오프 국면에서 우선 매도 대상</span></div></div>
-<div class="sec-detail sf" id="s5"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 원자재/금</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">금 +0.68% 4,012달러, WTI 82.49달러 급등</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">지정학 프리미엄 반영, 인플레 재점화 우려로 금리 상방 압력</span></div></div>
-<div class="sec-detail sf" id="s6"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 채권</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">미 30년물 5.064%, 한국 30년물 4.468%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고유가발 인플레 우려로 장기금리 상승, 듀레이션 리스크 유의</span></div></div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">종목 등락률 (7/19)</div>
-<div class="chart-lbl sf">🇰🇷 한국</div>
-<div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-<div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-<div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/19 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전자 -8.77% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">255,000원</div><div class="stk-chg down">▼ -8.77%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">255,000원, 반도체 매도세 집중</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율은 우호적이나 매크로 리스크로 단기 변동성 확대</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">SK하이닉스 -11.53% 폭락</div></div><div class="stk-nums-col sf"><div class="stk-price">184만원</div><div class="stk-chg down">▼ -11.53%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,842,000원, HBM 대장주 급락</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">밸류에이션 부담과 차익실현 겹쳐 조정, 중장기 AI 수요는 유효</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">ISC -8.52% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">145,000원</div><div class="stk-chg down">▼ -8.52%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">145,000원, 반도체 테스트 소켓주 동반 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">업종 조정 국면 편승, 실적 모멘텀 확인 후 접근</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">삼성전기 -9.62% 급락</div></div><div class="stk-nums-col sf"><div class="stk-price">128만원</div><div class="stk-chg down">▼ -9.62%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">1,277,000원, MLCC·기판주 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">기술주 전반 리스크오프에 노출, 반등 시 분할 대응</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">현대차 -2.07% 선방</div></div><div class="stk-nums-col sf"><div class="stk-price">425,000원</div><div class="stk-chg down">▼ -2.07%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">425,000원, 지수 대비 방어적</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율 수혜 기대, 유가 상승·수요둔화는 부담 요인</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">두산로보틱스 -5.10% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">67,000원</div><div class="stk-chg down">▼ -5.10%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">67,000원, 로보틱스 테마 조정</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">성장 기대 유효하나 리스크오프 국면에서 변동성 확대</span></div></div>
-</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/19 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">마이크론 -0.50% 소폭 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$848.95</div><div class="stk-chg down">▼ -0.50%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">848.95달러, 반도체주 중 상대적 선방</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·메모리 업황 기대가 하방 지지, 금리 상승은 부담</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">엔비디아 -2.21% 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">$202.81</div><div class="stk-chg down">▼ -2.21%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">202.81달러, AI 대장주 차익실현</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고밸류 구간에서 금리 민감도 높아 변동성 지속</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">AMD -1.03% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$495.76</div><div class="stk-chg down">▼ -1.03%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">495.76달러, 기술주 동반 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 가속기 경쟁 기대 유효, 매크로 안정 시 반등 여지</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체ETF -1.64%</div></div><div class="stk-nums-col sf"><div class="stk-price">$521.81</div><div class="stk-chg down">▼ -1.64%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">521.81달러, 업종 전반 조정</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">섹터 리스크 확대, 분산·분할 매수 전략 권장</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">아이온큐 -0.91% 약세</div></div><div class="stk-nums-col sf"><div class="stk-price">$34.78</div><div class="stk-chg down">▼ -0.91%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">34.78달러, 양자컴 테마 조정</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고변동성 테마, 리스크오프 국면에서 신중 접근</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">퀀텀스케이프 -0.76% 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$5.86</div><div class="stk-chg down">▼ -0.76%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">5.86달러, 배터리 테마 약세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">상용화 지연 우려 지속, 장기 관점 접근 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">Planet Labs +1.72% 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">$22.47</div><div class="stk-chg up">▲ +1.72%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">22.47달러, 위성 데이터주 강세</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">지정학 긴장으로 위성·방산 데이터 수요 부각</span></div></div>
-</div>
-</div>
-</div>
-<div class="paper-body" style="border-top:2px solid var(--accent)">
-<div class="col-left">
-<div class="sec-lbl sf">🌏 주말 글로벌 이슈</div>
-<div style="font-size:12px;color:var(--text2);line-height:1.7;margin-top:6px">주말 사이 최대 이슈는 미·이란 전쟁 격화와 쿠웨이트 에너지 시설 피격으로, 유가 상승과 연료가격 인상 우려가 커졌다. 중국 AI의 급부상과 우크라이나 군 지휘부 혼란도 지정학 리스크를 가중시켰다. 영국의 정치·산업 지형 변화도 유럽 시장의 변수로 부상했다.</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">주요 외신 — 월요일 시장 영향</div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">쿠웨이트 에너지 인프라, 이란 집중 공격에 피격</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">Bloomberg</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 유가 급등·에너지주 변동성 확대</div><div style="font-size:11px;color:var(--text2);line-height:1.6">쿠웨이트가 이틀 연속 이란의 보복 공격으로 석유 시설과 발전소가 타격을 받았다. 중동 분쟁 격화로 원유 공급 차질 우려가 커지며 유가 상방 압력이 확대되고 있다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">미·이란 전쟁 평화협상 결렬로 영국 연료가격 재상승</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">BBC Business</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 글로벌 인플레·금리 상방 부담</div><div style="font-size:11px;color:var(--text2);line-height:1.6">평화협상이 무산되며 영국 등 주요국 연료가격이 다시 오르고 있다. 유가발 인플레 재점화 우려가 장기 금리 상승을 자극할 수 있다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">중국 Moonshot AI, Kimi K3로 OpenAI·앤스로픽에 도전</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">BBC Business</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ AI 반도체·기술주 경쟁 심화</div><div style="font-size:11px;color:var(--text2);line-height:1.6">중국 Moonshot AI가 최상위 미국 기업과 경쟁 가능한 대규모 AI 모델을 공개했다. 미·중 AI 패권 경쟁 격화로 반도체 수요와 수출규제 이슈가 부각될 전망이다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">젤렌스키, 시르스키 군 총사령관 해임 검토</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">Bloomberg</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 동유럽 지정학 불확실성 확대</div><div style="font-size:11px;color:var(--text2);line-height:1.6">우크라이나 군 내부 혼란 속에 지휘부 교체가 검토되고 있다고 FT가 전했다. 전황 불확실성이 유럽 방산·에너지 시장에 영향을 줄 수 있다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">'WarshGPT': 월가, 연준 소통 축소 시대 AI로 대응</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">CNBC</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 금리 정책 해석 변수 부각</div><div style="font-size:11px;color:var(--text2);line-height:1.6">연준의 공개 발언이 줄어드는 새 국면에 대비해 투자사들이 AI를 활용하고 있다. 통화정책 불확실성 속 시장의 금리 해석 민감도가 높아질 전망이다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">인도 최대 자산운용사 IPO에 310억 달러 청약 몰려</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">Bloomberg</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 신흥국 자금 유입 신호</div><div style="font-size:11px;color:var(--text2);line-height:1.6">인도 최대 자산운용사 IPO가 기관 중심으로 310억 달러 청약을 기록했다. 신흥국 자본시장 활황이 글로벌 위험자산 심리에 일부 긍정적 신호로 작용할 수 있다.</div></div>
-<div style="border-bottom:1px dotted var(--border);padding:10px 0"><div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:var(--text)">영국, 브리티시 스틸 국유화…중국 반발</span><span style="font-size:10px;color:var(--text3);flex-shrink:0;margin-left:8px">BBC Business</span></div><div style="font-size:11px;color:var(--neu);margin-bottom:3px">→ 유럽 산업정책·통상 리스크</div><div style="font-size:11px;color:var(--text2);line-height:1.6">영국 정부가 마지막 원료 제철소를 국유화하자 중국이 강하게 반발했다. 산업 자립 강화 흐름과 통상 마찰 가능성이 유럽 시장의 변수로 부상하고 있다.</div></div>
-</div>
-</div>
-<div class="conclusion sf">
-<div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">지정학 리스크 재점화와 고유가·고금리가 겹치며 글로벌 위험자산이 동반 조정을 받았다. 특히 코스피 반도체 대형주가 두 자릿수 급락하며 지수를 끌어내렸다. 안전자산인 금과 원자재는 강세를 보였다.</div></div>
-<div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">코스피 -6.37%, 반도체 대형주 -8~11% 급락</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">미 10년물 4.54%·30년물 5.06% 금리 급등</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">WTI 82달러·금 4,012달러 지정학 프리미엄 반영</div></div>
-<div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">원/달러 1,487원, 외국인 수급 이탈 주시</div></div>
-</div>
-<div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">AI·HBM 반도체 수요 구조적 성장 유효</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">중동 리스크 장기화 시 인플레·금리 재상승 위험</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">낙폭 과대 우량주 분할 매수 기회 모색</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">고환율·고금리 지속 시 성장주 밸류에이션 압박</div></div>
-</div>
-</div>
-</div>
-<div id="h0721" class="history-panel">
-<div class="headline-wrap">
-<div class="headline">코스피 6,516 급락 4.46%, 위험회피 확산</div>
-<div class="subhead sf">코스피 -4.46% 급락하며 6,516선 후퇴, 원/달러 1,475원대<br/>미국 10년물 4.598%·30년물 5.118% 고금리 부담 지속<br/>필라델피아 반도체는 강세, 마이크론 +1.94% AMD +1.58%</div>
-<div class="badge-row sf"><span class="badge b-down">코스피 -4.46%</span>
-<span class="badge b-amber">고금리 부담</span>
-<span class="badge b-up">美 반도체 강세</span>
-<span class="badge b-neu">공포 37.5</span>
-</div>
-<div class="crisis-banner sf">
-<span class="crisis-tag">위험회피</span>
-<span class="crisis-text">미국 장기금리가 30년물 5.1%를 돌파하며 밸류에이션 부담이 커진 가운데, 코스피가 4% 넘게 급락하며 아시아 위험자산에서 자금 이탈이 뚜렷하다.</span>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">주요 지수 (7/21 기준)</div>
-<div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">6,516.27</span><span class="idx-chg down sf">▼ -4.46%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">51,839.26</span><span class="idx-chg down sf">▼ -0.59%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&amp;P 500</span><span><span class="idx-val">7,443.28</span><span class="idx-chg down sf">▼ -0.19%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">25,508.07</span><span class="idx-chg down sf">▼ -0.05%</span></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-<div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.598%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$82.58 (▲ 0.11%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,475.78원 (▼ 0.78%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$4,011.10 (▼ 0.04%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.342 (▲ 1.96%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear &amp; Greed</span><span class="mini-val">37.5 (fear)</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val up">+816억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val down">-706억원</span></div>
-<div class="sec-lbl sf" style="margin-top:14px">🗓️ 주요 경제 일정</div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR Main Refinancing Rate</span><span class="mini-val" style="color:var(--text3)">2.40%</span></div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR Monetary Policy Statement</span><span class="mini-val" style="color:var(--text3)"></span></div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR ECB Press Conference</span><span class="mini-val" style="color:var(--text3)"></span></div>
-<div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-2</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-15</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-16</span></span></div>
-<div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-<div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-<div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>코스피 급락 후 지지선 회복 여부 확인</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>미국 10년물 4.6%·30년물 5.1% 금리 추이</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>연준 인사 발언 및 인플레 지표 점검</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>반도체 섹터 개별 모멘텀 지속 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-green">green</span>원/달러 1,475원대 환율 방향성</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="article-deck">고금리가 다시 위험자산을 짓눌렀다</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 21일 코스피는 전일 대비 4.46% 급락한 6,516.27로 마감했다. 52주 고가 9,385.59 대비 크게 낮은 수준으로, 최근 상승분을 상당 부분 반납하는 흐름이다. 원/달러는 1,475.78원으로 하락(원화 강세)했으나 지수 방어에는 역부족이었다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 미국 증시는 혼조세였다. 다우 -0.59%, S&amp;P500 -0.19%, 나스닥 -0.05%로 마감한 가운데 미국 10년물 금리는 4.598%, 30년물은 5.118%까지 상승했다. 반면 마이크론(+1.94%), AMD(+1.58%) 등 반도체는 개별 강세를 보이며 SOXX ETF는 +0.45%로 견조했다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 한국 시장의 낙폭은 지수 레벨이 높아진 상태에서 미국 장기금리 급등과 글로벌 위험회피 심리가 겹치며 확대된 것으로 해석된다. Fear &amp; Greed 지수가 37.5(공포)로 내려온 점도 투자심리 냉각을 확인시킨다. 다만 삼성전자(+0.61%)는 반도체 업황 기대에 힘입어 지수 대비 선방했다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> 장기금리가 5%대로 고착화될 경우 성장주와 고밸류 자산의 추가 조정 리스크가 남아있다. WTI 82달러대 유가와 구리 +1.96% 상승은 인플레이션 재점화 우려를 자극할 수 있어, 향후 연준 발언과 물가 지표에 대한 민감도가 높아질 전망이다.</div>
-<div class="byline sf">일일 브리핑 · 2026년 7월 21일 (화요일) · AI 자동 생성 · 투자 조언 아님</div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-<div class="hm-grid"><div class="hm-cell hm-down sf" onclick="togglePanel('s1')"><div class="hm-dir">▼▼</div><div class="hm-name">한국 지수</div><div class="hm-note">코스피 4% 넘게 급락</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s2')"><div class="hm-dir">▲</div><div class="hm-name">미국 반도체</div><div class="hm-note">메모리·AI칩 강세</div></div>
-<div class="hm-cell hm-neu sf" onclick="togglePanel('s3')"><div class="hm-dir">→</div><div class="hm-name">미국 지수</div><div class="hm-note">혼조 마감</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s4')"><div class="hm-dir">▼</div><div class="hm-name">채권/금리</div><div class="hm-note">장기금리 고공행진</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s5')"><div class="hm-dir">▲</div><div class="hm-name">원자재</div><div class="hm-note">구리·유가 강세</div></div>
-<div class="hm-cell hm-down sf" onclick="togglePanel('s6')"><div class="hm-dir">▼</div><div class="hm-name">양자/테마주</div><div class="hm-note">위험자산 이탈</div></div>
-</div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-<div class="sec-detail on sf" id="s1"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼▼ 한국 지수</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">코스피 6,516.27(-4.46%), 52주 고가 9,385.59 대비 하회</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고레벨 지수에서 차익실현+위험회피 겹쳐 변동성 확대, 저가매수 신중</span></div></div>
-<div class="sec-detail sf" id="s2"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 미국 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">마이크론 +1.94%, AMD +1.58%, SOXX +0.45%, 엔비디아 +0.23%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI·HBM 수요 기대 지속, 반도체 사이클 개별 모멘텀 유효</span></div></div>
-<div class="sec-detail sf" id="s3"><div style="font-size:11px;font-weight:700;color:var(--neu);margin-bottom:6px">→ 미국 지수</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">다우 -0.59%, S&amp;P500 -0.19%, 나스닥 -0.05%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">기술주 방어에도 금리 부담으로 상단 제한, 방향성 탐색 국면</span></div></div>
-<div class="sec-detail sf" id="s4"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 채권/금리</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">美 10Y 4.598%, 30Y 5.118%, 韓 10Y 4.336%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">금리 상승은 밸류에이션 부담, 성장주 및 신흥국 자산에 역풍</span></div></div>
-<div class="sec-detail sf" id="s5"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 원자재</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">WTI $82.58, 구리 $6.342(+1.96%), 금 $4,011.10</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">경기민감 원자재 상승은 수요 기대 반영이나 인플레 재점화 경계</span></div></div>
-<div class="sec-detail sf" id="s6"><div style="font-size:11px;font-weight:700;color:var(--down);margin-bottom:6px">▼ 양자/테마주</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 -1.55%, Planet Labs -1.42%, 퀀텀스케이프 +0.51%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고변동 테마주는 위험회피 국면에서 취약, 비중 관리 필요</span></div></div>
-</div>
-</div>
-<div class="paper-body">
-<div class="col-left">
-<div class="sec-lbl sf">종목 등락률 (7/21)</div>
-<div class="chart-lbl sf">🇰🇷 한국</div>
-<div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-<div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-<div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-</div>
-<div class="col-right">
-<div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/21 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">지수 대비 선방</div></div><div class="stk-nums-col sf"><div class="stk-price">245,500원</div><div class="stk-chg up">▲ +0.61%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전자 245,500원(+0.61%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·메모리 업황 기대가 하락장 방어, 상대적 강세 유지</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">소폭 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">175만원</div><div class="stk-chg down">▼ -0.68%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SK하이닉스 1,752,000원(-0.68%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고평가 부담 속 조정이나 AI 메모리 구조적 수요 견조</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">약보합</div></div><div class="stk-nums-col sf"><div class="stk-price">134,300원</div><div class="stk-chg down">▼ -0.96%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">ISC 134,300원(-0.96%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 테스트 소켓 수요 유효, 지수 급락 대비 낙폭 제한</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">하락 마감</div></div><div class="stk-nums-col sf"><div class="stk-price">126만원</div><div class="stk-chg down">▼ -1.49%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전기 1,256,000원(-1.49%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">MLCC 업황 기대에도 위험회피에 조정, 중장기 관점 접근</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">낙폭 확대</div></div><div class="stk-nums-col sf"><div class="stk-price">385,500원</div><div class="stk-chg down">▼ -3.38%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 385,500원(-3.38%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">경기민감주 특성상 위험회피 국면에서 매도세 집중</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">약세</div></div><div class="stk-nums-col sf"><div class="stk-price">61,000원</div><div class="stk-chg down">▼ -1.29%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">두산로보틱스 61,000원(-1.29%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고밸류 성장주로 금리 부담·위험회피에 취약, 변동성 유의</span></div></div>
-</div>
-<div class="stk-section">
-<div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/21 종가 기준</span></div>
-<div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">메모리 강세</div></div><div class="stk-nums-col sf"><div class="stk-price">$865.46</div><div class="stk-chg up">▲ +1.94%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">마이크론 865.46$(+1.94%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·DRAM 가격 상승 기대가 주가 견인, 반도체 리더십 지속</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">소폭 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">$203.28</div><div class="stk-chg up">▲ +0.23%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">엔비디아 203.28$(+0.23%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI GPU 수요 견조, 고밸류 부담 속 완만한 상승 유지</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">강세 지속</div></div><div class="stk-nums-col sf"><div class="stk-price">$503.57</div><div class="stk-chg up">▲ +1.58%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">AMD 503.57$(+1.58%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">데이터센터·AI 가속기 점유율 확대 기대 반영</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체ETF 견조</div></div><div class="stk-nums-col sf"><div class="stk-price">$524.14</div><div class="stk-chg up">▲ +0.45%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SOXX 524.14$(+0.45%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">섹터 전반 강세, 반도체 사이클 상승 기대 유효</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">양자주 조정</div></div><div class="stk-nums-col sf"><div class="stk-price">$34.24</div><div class="stk-chg down">▼ -1.55%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 34.24$(-1.55%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위험회피 국면 고변동 테마 약세, 단기 변동성 확대</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">소폭 반등</div></div><div class="stk-nums-col sf"><div class="stk-price">$5.89</div><div class="stk-chg up">▲ +0.51%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">퀀텀스케이프 5.89$(+0.51%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">전고체 배터리 기대 유지되나 상용화 시점 불확실</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">위성주 하락</div></div><div class="stk-nums-col sf"><div class="stk-price">$22.15</div><div class="stk-chg down">▼ -1.42%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">Planet Labs 22.15$(-1.42%)</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">우주·데이터 테마 조정, 실적 가시성 확인 필요</span></div></div>
-</div>
-</div>
-</div>
-<div class="conclusion sf">
-<div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">고레벨에 도달한 코스피가 미국 장기금리 급등과 글로벌 위험회피 심리에 4% 넘게 급락했다. 반면 미국 반도체 섹터는 개별 강세를 유지하며 차별화됐다. Fear &amp; Greed 37.5로 심리는 공포 구간에 진입했다.</div></div>
-<div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">코스피 -4.46% 급락, 위험회피 심리 확산</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">美 30년물 5.118%로 밸류에이션 부담 지속</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">마이크론·AMD 등 반도체 개별 강세 유지</div></div>
-<div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">원/달러 1,475원, 환율 변동성 주시</div></div>
-</div>
-<div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">장기금리 5%대 고착 여부가 자산배분 핵심 변수</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">AI·HBM 반도체 사이클 구조적 수요 유효</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">고밸류 성장·테마주 조정 리스크 상존</div></div>
-<div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">유가·구리 상승에 따른 인플레 재점화 경계</div></div>
-</div>
-</div>
+
+<!-- 이번주 테마 -->
+<div style="padding:16px 0 10px;border-bottom:2px solid var(--accent)">
+  <div style="font-size:22px;font-weight:700;line-height:1.3;letter-spacing:-.3px;color:var(--accent)">반도체 강세 속 코스닥 ▼5.51% 급락, 07/30 FOMC(예상 동결 3.75%)와 유가·중동 변수 주시</div>
+  <div style="font-size:13px;color:var(--text2);margin-top:8px;line-height:1.6">지난주 국내 증시는 코스피 ▼1.91%(6,690.62), 코스닥 ▼5.51%(748.22)로 중소형·성장주 중심의 큰 폭 조정을 보였습니다. 미국도 나스닥 ▼2.13%, S&P500 ▼0.61%로 약세를 이어갔으나 다우는 상대적으로 선방했습니다. 반면 삼성전자(+5.33%), 삼성전기(+7.61%), 마이크론(+8.48%), AMD(+5.28%) 등 반도체 대형주는 강세를 유지하며 지수 하락 속에서도 차별화된 흐름을 보였습니다. 중동 리스크로 WTI가 $84.64까지 상승하고 Fear & Greed가 39.4(공포) 구간에 머물며 위험회피 심리가 확산됐습니다.</div>
 </div>
 
+<!-- 매크로 현황 -->
+<div style="display:flex;gap:24px;flex-wrap:wrap;margin:8px 0" class="sf"><span style="font-size:12px;color:var(--text2)">🇺🇸10년물 <b>4.679%</b></span><span style="font-size:12px;color:var(--text2)">WTI <b>$84.64</b></span><span style="font-size:12px;color:var(--text2)">금 <b>$4,099</b></span><span style="font-size:12px;color:var(--text2)">원/달러 <b>1,458원</b></span><span style="font-size:12px;color:var(--text2)">Fear&Greed <b>39.4 fear</b></span></div>
 
-<div id="h0722" class="history-panel on">
-<div class="headline-wrap">
-  <div class="headline">메모리 슈퍼사이클에 코스피 6,748 급등</div>
-  <div class="subhead sf">마이크론 +12.17%·AMD +8.11% 반도체 랠리 확산<br>SOXX +5.45%, 삼성전자 +6.15%·SK하이닉스 +4.08% 동반 강세<br>다만 미 10년물 4.628%·원/달러 1,480원 부담 상존</div>
-  <div class="badge-row sf"><span class="badge b-up">반도체 랠리</span>
-<span class="badge b-up">코스피 +3.56%</span>
-<span class="badge b-amber">고금리 지속</span>
-<span class="badge b-up">메모리 강세</span>
-</div>
-  <div class="crisis-banner sf">
-    <span class="crisis-tag">반도체</span>
-    <span class="crisis-text">마이크론 어닝 서프라이즈와 HBM 수요 급증 기대감으로 글로벌 메모리 사이클이 재점화됐습니다. AI 서버향 수요가 국내외 반도체주를 동반 견인하고 있습니다.</span>
-  </div>
-</div>
-<div class="paper-body">
-  <div class="col-left">
-    <div class="sec-lbl sf">주요 지수 (7/22 기준)</div>
-    <div class="idx-item sf"><span class="idx-name">코스피</span><span><span class="idx-val">6,747.95</span><span class="idx-chg up sf">▲ +3.56%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">다우</span><span><span class="idx-val">52,224.64</span><span class="idx-chg up sf">▲ +0.74%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">S&P 500</span><span><span class="idx-val">7,509.20</span><span class="idx-chg up sf">▲ +0.89%</span></span></div>
-<div class="idx-item sf"><span class="idx-name">나스닥</span><span><span class="idx-val">25,837.21</span><span class="idx-chg up sf">▲ +1.29%</span></span></div>
 
-    <div class="sec-lbl sf" style="margin-top:14px">오늘의 핵심 지표</div>
-    <div class="mini-item sf"><span class="mini-name">미국 10년물</span><span class="mini-val">4.628%</span></div>
-<div class="mini-item sf"><span class="mini-name">WTI 유가</span><span class="mini-val">$84.71 (▲ 1.78%)</span></div>
-<div class="mini-item sf"><span class="mini-name">원/달러</span><span class="mini-val">1,480.01원 (▲ 0.34%)</span></div>
-<div class="mini-item sf"><span class="mini-name">금</span><span class="mini-val">$4,084.40 (▲ 1.85%)</span></div>
-<div class="mini-item sf"><span class="mini-name">구리</span><span class="mini-val">$6.528 (▲ 3.63%)</span></div>
-<div class="mini-item sf"><span class="mini-name">Fear & Greed</span><span class="mini-val">41.0 (fear)</span></div>
-
-    <div class="sec-lbl sf" style="margin-top:14px">🏦 기관/외국인 순매수</div>
-<div class="mini-item sf"><span class="mini-name">코스피 외국인</span><span class="mini-val up">+3,086억원</span></div>
-<div class="mini-item sf"><span class="mini-name">코스피 기관</span><span class="mini-val up">+13,744억원</span></div>
-
-    <div class="sec-lbl sf" style="margin-top:14px">🗓️ 주요 경제 일정</div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR Main Refinancing Rate</span><span class="mini-val" style="color:var(--text3)">2.40%</span></div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR Monetary Policy Statement</span><span class="mini-val" style="color:var(--text3)"></span></div>
-<div class="mini-item sf"><span class="mini-name">[07/23] EUR ECB Press Conference</span><span class="mini-val" style="color:var(--text3)"></span></div>
-
-    <div class="sec-lbl sf" style="margin-top:14px">📅 실적 발표 예정 (30일)</div>
-<div class="mini-item sf"><span class="mini-name">퀀텀스케이프(QS)</span><span class="mini-val">07/23 <span style="color:var(--text3)">D-1</span></span></div>
-<div class="mini-item sf"><span class="mini-name">AMD(AMD)</span><span class="mini-val">08/05 <span style="color:var(--text3)">D-14</span></span></div>
-<div class="mini-item sf"><span class="mini-name">아이온큐(IONQ)</span><span class="mini-val">08/06 <span style="color:var(--text3)">D-15</span></span></div>
-
-    <div class="chart-box"><div class="chart-lbl sf">🇰🇷 한국 주요 종목 등락률</div>
-    <div class="chart-wrap" style="height:90px"><canvas id="krMainChart"></canvas></div></div>
-    <div class="checklist-section"><div class="sec-lbl sf">오늘 확인 리스트</div><div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-us">US</span>마이크론 실적 세부 및 HBM 가이던스 확인</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-macro">매크로</span>미 10년물 4.628% 금리 추가 상승 여부</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-kr">KR</span>원/달러 1,480원 환율 방어선 점검</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-hot">hot</span>SK하이닉스·삼성전자 HBM 공급 계약 뉴스</div></div>
-<div class="chk-item sf" onclick="toggleChk(this)"><div class="chk-box"><span class="chk-check">✓</span></div><div class="chk-text"><span class="chk-tag tag-green">green</span>Fear & Greed 41 공포 구간 회복 신호</div></div>
-</div>
-  </div>
-  <div class="col-right">
-    <div class="article-deck">메모리가 다시 불붙었다</div>
-    <div class="article-body"><span class="fact-tag sf">Fact</span> 22일 코스피는 전일 대비 3.56% 상승한 6,747.95로 마감했다. 삼성전자가 6.15% 오른 259,000원, SK하이닉스가 4.08% 상승한 1,836,000원을 기록하며 지수 상승을 주도했다.</div>
-<div class="article-body"><span class="fact-tag sf">Fact</span> 간밤 미국 증시에서 마이크론이 12.17% 폭등한 970.82달러로 마감했고, AMD가 8.11%, 반도체 ETF인 SOXX가 5.45% 급등했다. 나스닥은 1.29% 오른 25,837.21로 기술주 강세가 뚜렷했다.</div>
-<div class="article-body"><span class="int-tag sf">해석</span> 메모리 반도체 업황 회복과 AI 데이터센터향 HBM 수요 확대 기대가 국내외 반도체 밸류체인 전반으로 확산됐다. 삼성전기 2.75%, ISC 2.65% 등 부품주도 온기를 함께 받았다.</div>
-<div class="article-body"><span class="warn-tag sf">주목 변수</span> 다만 미 10년물 금리가 4.628%, 30년물이 5.130%로 여전히 높고 원/달러 환율이 1,480원까지 상승한 점은 부담이다. Fear & Greed 지수가 41(공포) 구간에 머물러 낙관 일변도는 경계할 필요가 있다.</div>
-
-    <div class="byline sf">일일 브리핑 · 2026년 7월 22일 (수요일) · AI 자동 생성 · 투자 조언 아님</div>
-  </div>
-</div>
-<div class="paper-body">
-  <div class="col-left">
-    <div class="sec-lbl sf">섹터 히트맵 — 클릭시 분석</div>
-    <div class="hm-grid"><div class="hm-cell hm-up sf" onclick="togglePanel('s1')"><div class="hm-dir">▲▲</div><div class="hm-name">메모리 반도체</div><div class="hm-note">마이크론 폭등에 슈퍼사이클 기대</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s2')"><div class="hm-dir">▲▲</div><div class="hm-name">반도체 장비/ETF</div><div class="hm-note">SOXX 5%대 급등</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s3')"><div class="hm-dir">▲</div><div class="hm-name">반도체 부품</div><div class="hm-note">패키징·MLCC 동반 강세</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s4')"><div class="hm-dir">▲</div><div class="hm-name">양자컴퓨팅</div><div class="hm-note">테마 강세 유지</div></div>
-<div class="hm-cell hm-up sf" onclick="togglePanel('s5')"><div class="hm-dir">▲</div><div class="hm-name">로보틱스</div><div class="hm-note">국내 로봇주 상승</div></div>
-<div class="hm-cell hm-neu sf" onclick="togglePanel('s6')"><div class="hm-dir">→</div><div class="hm-name">자동차</div><div class="hm-note">현대차 보합</div></div>
-</div>
-  </div>
-  <div class="col-right">
-    <div class="sec-lbl sf">섹터 상세 — 셀 클릭시 전환</div>
-    <div id="s1" class="sec-detail on sf"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲▲ 메모리 반도체</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">마이크론 +12.17%, SK하이닉스 +4.08%, 삼성전자 +6.15%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·DDR5 수요 확대로 실적 개선 기대, 중장기 이익 모멘텀 유효</span></div></div>
-<div id="s2" class="sec-detail  sf"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲▲ 반도체 장비/ETF</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SOXX +5.45%, AMD +8.11%, 엔비디아 +1.97%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 투자 사이클 지속, 다만 밸류에이션 부담 점검 필요</span></div></div>
-<div id="s3" class="sec-detail  sf"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 반도체 부품</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전기 +2.75%, ISC +2.65%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">메모리 회복 수혜 확산, 테스트·기판 수요 개선 기대</span></div></div>
-<div id="s4" class="sec-detail  sf"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 양자컴퓨팅</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 +3.71%, 퀀텀스케이프 +2.72%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">기대 선반영 성격, 실적보다 테마 변동성 큰 구간</span></div></div>
-<div id="s5" class="sec-detail  sf"><div style="font-size:11px;font-weight:700;color:var(--up);margin-bottom:6px">▲ 로보틱스</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">두산로보틱스 +3.40%</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">자동화 수요 확대 기대, 밸류 부담과 실적 괴리 유의</span></div></div>
-<div id="s6" class="sec-detail  sf"><div style="font-size:11px;font-weight:700;color:var(--neu);margin-bottom:6px">→ 자동차</div><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 0.00%, 399,000원</span></div><div class="fi-row" style="margin-top:5px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율 수출 우호 vs 고금리 수요 둔화 혼재, 방향성 관망</span></div></div>
-
-  </div>
-</div>
-<div class="paper-body">
-  <div class="col-left">
-    <div class="sec-lbl sf">종목 등락률 (7/22)</div>
-    <div class="chart-lbl sf">🇰🇷 한국</div>
-    <div class="chart-wrap" style="height:80px;margin-bottom:14px"><canvas id="krSubChart"></canvas></div>
-    <div class="chart-lbl sf">🇺🇸 미국 반도체·기술</div>
-    <div class="chart-wrap" style="height:80px"><canvas id="usChart"></canvas></div>
-
-  </div>
-  <div class="col-right">
-    <div class="sec-lbl sf">관심종목 — 클릭하면 분석 펼치기</div>
-    <div class="stk-section">
-      <div class="stk-flag sf">🇰🇷 한국 <span style="font-weight:400;font-size:9px">7/22 종가 기준</span></div>
-      <div class="stk-row" onclick="toggleStk('k1')"><div class="stk-name-col sf"><div class="stk-code">005930</div><div class="stk-name">삼성전자 <span class="expand-arr" id="a-k1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">메모리 랠리 선봉</div></div><div class="stk-nums-col sf"><div class="stk-price">259,000원</div><div class="stk-chg up">▲ +6.15%</div></div></div>
-<div class="stk-detail" id="k1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전자 +6.15%, 259,000원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">HBM·범용 D램 회복 기대, 실적 턴어라운드 관건</span></div></div>
-<div class="stk-row" onclick="toggleStk('k2')"><div class="stk-name-col sf"><div class="stk-code">000660</div><div class="stk-name">SK하이닉스 <span class="expand-arr" id="a-k2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">HBM 대장 강세</div></div><div class="stk-nums-col sf"><div class="stk-price">184만원</div><div class="stk-chg up">▲ +4.08%</div></div></div>
-<div class="stk-detail" id="k2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SK하이닉스 +4.08%, 1,836,000원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 메모리 수요 최대 수혜, 공급 우위 지속 여부 주목</span></div></div>
-<div class="stk-row" onclick="toggleStk('k3')"><div class="stk-name-col sf"><div class="stk-code">095340</div><div class="stk-name">ISC <span class="expand-arr" id="a-k3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">테스트 소켓 수혜</div></div><div class="stk-nums-col sf"><div class="stk-price">139,200원</div><div class="stk-chg up">▲ +2.65%</div></div></div>
-<div class="stk-detail" id="k3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">ISC +2.65%, 139,200원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">반도체 물량 회복 시 후공정 수요 개선 기대</span></div></div>
-<div class="stk-row" onclick="toggleStk('k4')"><div class="stk-name-col sf"><div class="stk-code">009150</div><div class="stk-name">삼성전기 <span class="expand-arr" id="a-k4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">부품주 온기</div></div><div class="stk-nums-col sf"><div class="stk-price">131만원</div><div class="stk-chg up">▲ +2.75%</div></div></div>
-<div class="stk-detail" id="k4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">삼성전기 +2.75%, 1,310,000원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 서버향 MLCC·기판 수요 확대 기대</span></div></div>
-<div class="stk-row" onclick="toggleStk('k5')"><div class="stk-name-col sf"><div class="stk-code">005380</div><div class="stk-name">현대차 <span class="expand-arr" id="a-k5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">방향성 관망</div></div><div class="stk-nums-col sf"><div class="stk-price">399,000원</div><div class="stk-chg neu">— +0.00%</div></div></div>
-<div class="stk-detail" id="k5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">현대차 0.00%, 399,000원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">고환율 우호 요인 vs 글로벌 수요 둔화 상쇄</span></div></div>
-<div class="stk-row" onclick="toggleStk('k6')"><div class="stk-name-col sf"><div class="stk-code">454910</div><div class="stk-name">두산로보틱스 <span class="expand-arr" id="a-k6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">로봇주 반등</div></div><div class="stk-nums-col sf"><div class="stk-price">63,900원</div><div class="stk-chg up">▲ +3.40%</div></div></div>
-<div class="stk-detail" id="k6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">두산로보틱스 +3.40%, 63,900원</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">자동화 성장 스토리 유효, 밸류 부담 병존</span></div></div>
-
-    </div>
-    <div class="stk-section">
-      <div class="stk-flag sf">🇺🇸 미국 <span style="font-weight:400;font-size:9px">7/22 종가 기준</span></div>
-      <div class="stk-row" onclick="toggleStk('u1')"><div class="stk-name-col sf"><div class="stk-code">MU</div><div class="stk-name">마이크론 <span class="expand-arr" id="a-u1">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">어닝 서프라이즈 폭등</div></div><div class="stk-nums-col sf"><div class="stk-price">$970.82</div><div class="stk-chg up">▲ +12.17%</div></div></div>
-<div class="stk-detail" id="u1"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">마이크론 +12.17%, 970.82달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">메모리 가격 반등·HBM 수요로 실적 가속, 사이클 확인</span></div></div>
-<div class="stk-row" onclick="toggleStk('u2')"><div class="stk-name-col sf"><div class="stk-code">NVDA</div><div class="stk-name">엔비디아 <span class="expand-arr" id="a-u2">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">완만한 상승</div></div><div class="stk-nums-col sf"><div class="stk-price">$207.29</div><div class="stk-chg up">▲ +1.97%</div></div></div>
-<div class="stk-detail" id="u2"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">엔비디아 +1.97%, 207.29달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">AI 리더십 유지, 밸류 부담에 상승폭 제한적</span></div></div>
-<div class="stk-row" onclick="toggleStk('u3')"><div class="stk-name-col sf"><div class="stk-code">AMD</div><div class="stk-name">AMD <span class="expand-arr" id="a-u3">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">AI 칩 강세</div></div><div class="stk-nums-col sf"><div class="stk-price">$544.43</div><div class="stk-chg up">▲ +8.11%</div></div></div>
-<div class="stk-detail" id="u3"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">AMD +8.11%, 544.43달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">데이터센터 GPU 수요 확대, 엔비디아 대안 기대</span></div></div>
-<div class="stk-row" onclick="toggleStk('u4')"><div class="stk-name-col sf"><div class="stk-code">SOXX</div><div class="stk-name">SOXX(반도체ETF) <span class="expand-arr" id="a-u4">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">반도체 ETF 급등</div></div><div class="stk-nums-col sf"><div class="stk-price">$552.69</div><div class="stk-chg up">▲ +5.45%</div></div></div>
-<div class="stk-detail" id="u4"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">SOXX +5.45%, 552.69달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">섹터 전반 강세, 반도체 비중 확대 심리 반영</span></div></div>
-<div class="stk-row" onclick="toggleStk('u5')"><div class="stk-name-col sf"><div class="stk-code">IONQ</div><div class="stk-name">아이온큐 <span class="expand-arr" id="a-u5">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">양자 테마 지속</div></div><div class="stk-nums-col sf"><div class="stk-price">$35.51</div><div class="stk-chg up">▲ +3.71%</div></div></div>
-<div class="stk-detail" id="u5"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">아이온큐 +3.71%, 35.51달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">기대 선반영, 실적 부재로 변동성 주의</span></div></div>
-<div class="stk-row" onclick="toggleStk('u6')"><div class="stk-name-col sf"><div class="stk-code">QS</div><div class="stk-name">퀀텀스케이프 <span class="expand-arr" id="a-u6">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">배터리 테마 반등</div></div><div class="stk-nums-col sf"><div class="stk-price">$6.05</div><div class="stk-chg up">▲ +2.72%</div></div></div>
-<div class="stk-detail" id="u6"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">퀀텀스케이프 +2.72%, 6.05달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">전고체 상용화 기대, 장기 관점 접근 필요</span></div></div>
-<div class="stk-row" onclick="toggleStk('u7')"><div class="stk-name-col sf"><div class="stk-code">PL</div><div class="stk-name">Planet Labs <span class="expand-arr" id="a-u7">▾</span></div></div><div class="stk-price-col"><div class="stk-headline sf">우주·위성 강세</div></div><div class="stk-nums-col sf"><div class="stk-price">$23.10</div><div class="stk-chg up">▲ +4.29%</div></div></div>
-<div class="stk-detail" id="u7"><div class="fi-row"><span class="fact-tag sf">Fact</span><span class="fi-txt sf">Planet Labs +4.29%, 23.10달러</span></div><div class="fi-row" style="margin-top:4px"><span class="int-tag sf">해석</span><span class="fi-txt sf">위성 데이터 수요 성장, 실적 안정성 확인 필요</span></div></div>
-
-    </div>
-  </div>
+<!-- 지난주 시장 수익률 -->
+<div class="sec-lbl sf">📊 지난주 시장 수익률</div>
+<div class="perf-grid">
+<div class="perf-card sf"><div class="perf-name">코스피</div><div class="perf-val">6,690.62</div><div class="perf-chg down">▼ 1.91% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">코스닥</div><div class="perf-val">748.22</div><div class="perf-chg down">▼ 5.51% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">다우</div><div class="perf-val">51,947.25</div><div class="perf-chg down">▼ 0.38% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">S&P 500</div><div class="perf-val">7,411.98</div><div class="perf-chg down">▼ 0.61% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">나스닥</div><div class="perf-val">24,975.82</div><div class="perf-chg down">▼ 2.13% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">니케이225</div><div class="perf-val">64,611.15</div><div class="perf-chg down">▼ 3.33% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">상해종합</div><div class="perf-val">3,814.20</div><div class="perf-chg up">▲ 1.33% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">항셍</div><div class="perf-val">24,963.23</div><div class="perf-chg up">▲ 1.63% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">DAX</div><div class="perf-val">25,099.00</div><div class="perf-chg up">▲ 1.08% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">FTSE100</div><div class="perf-val">10,736.20</div><div class="perf-chg up">▲ 1.28% (주간)</div></div>
 </div>
 
-<div class="conclusion sf">
-  <div><div class="con-col-title">오늘의 핵심 흐름</div><div class="con-flow">마이크론발 메모리 슈퍼사이클 기대가 글로벌 반도체 랠리를 촉발하며 코스피가 3.56% 급등했다. 삼성전자·SK하이닉스 등 메모리 대장주가 지수를 견인했으나, 고금리와 고환율은 여전히 상승의 발목을 잡을 수 있는 변수다.</div></div>
-  <div><div class="con-col-title">오늘 주목 포인트</div><div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">메모리 가격 반등으로 반도체 이익 모멘텀 개선</div></div>
-<div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">AI 데이터센터 투자 사이클 지속으로 HBM 수요 확대</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">미 장기금리 상승과 원/달러 1,480원 부담</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">Fear & Greed 41 공포 구간, 심리 회복 미완</div></div>
-</div>
-  <div><div class="con-col-title">중장기 체크포인트</div><div class="con-item"><div class="con-dot dot-g"></div><div class="con-txt">HBM·고부가 메모리 중심 실적 구조 개선 지속성</div></div>
-<div class="con-item"><div class="con-dot dot-b"></div><div class="con-txt">연준 금리 경로와 장기물 금리 안정 여부</div></div>
-<div class="con-item"><div class="con-dot dot-a"></div><div class="con-txt">고환율 장기화에 따른 수입물가·인플레 압력</div></div>
-<div class="con-item"><div class="con-dot dot-r"></div><div class="con-txt">반도체 밸류에이션 급등에 따른 조정 리스크</div></div>
-</div>
-</div>
-</div>
+<!-- 지난주 핵심 이벤트 -->
+<div class="sec-lbl sf">🔑 지난주 핵심 이벤트</div>
+<div class="highlight-card"><div class="hl-title sf">📉 코스닥 ▼5.51% 급락, 성장·양자주 이탈</div><div class="hl-detail">코스닥이 748.22로 주간 5.51% 하락하며 국내 증시 중 최악의 성과를 기록했습니다. 아이온큐 ▼5.58%, 퀀텀스케이프 ▼16.64% 등 고밸류 성장·양자 테마의 급락이 투자심리 위축을 반영했습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">📈 반도체 대형주 차별화 강세</div><div class="hl-detail">삼성전자 +5.33%, 삼성전기 +7.61%, 마이크론 +8.48%, AMD +5.28% 등 반도체 핵심주가 지수 하락에도 강한 상승세를 유지했습니다. AI 메모리 수요 기대가 대형주 쏠림을 강화했습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">⚡ 중동 긴장에 유가 $100 터치, 위험자산 흔들</div><div class="hl-detail">미·이란 충돌 재점화로 유가가 한때 배럴당 $100을 넘기며 목요일 증시가 급락했습니다. 주말 양측이 공격을 일시 중단하며 WTI는 $84.64로 되돌림되었습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">🌐 니케이 ▼3.33% 급락, 아시아 위험회피</div><div class="hl-detail">니케이225가 64,611.15로 주간 3.33% 하락한 반면 상해종합(+1.33%)·항셍(+1.63%)은 상승해 아시아 내에서도 뚜렷한 온도차를 보였습니다.</div></div>
+
+
+<!-- 주말 이슈 -->
+<div class="sec-lbl sf">📰 주말 글로벌 이슈</div>
+<div class="highlight-card"><div class="hl-title sf">📰 [MarketWatch] 미·이란 공격 중단에 유가 급락·주가선물 반등</div><div class="hl-detail" style="color:var(--text3)">월요일 위험선호 회복으로 국내 증시 반등 시도 가능</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [CNBC] 무디스, 빅테크 AI 과잉투자가 신용등급 위협 경고</div><div class="hl-detail" style="color:var(--text3)">아마존·메타·알파벳 등 부채 확대 우려로 빅테크 변동성 확대</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [CNBC] 미국 등 주요국, 中 정상회의서 오픈소스 AI 지지</div><div class="hl-detail" style="color:var(--text3)">AI 반도체·소프트웨어 관련주 심리 지지 요인</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [BBC Business] 트럼프, EU의 美 빅테크 벌금 조사·전면 철회 요구</div><div class="hl-detail" style="color:var(--text3)">미·EU 통상 갈등 재점화로 글로벌 리스크 요인</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [BBC Business] 미국, 수십개국에 신규 관세 부과 강행</div><div class="hl-detail" style="color:var(--text3)">무역 불확실성 지속으로 수출주·원자재 변동성</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [CNBC] 유가 $100 돌파에 증시 더 이상 전쟁 무시 못 해</div><div class="hl-detail" style="color:var(--text3)">유가 향방이 이번주 증시 방향성의 핵심 변수</div></div>
+
+
+<!-- 이번주 전략 -->
+<div class="sec-lbl sf">🎯 이번주 전략</div>
+<div class="strategy-box"><div class="strategy-text">07/30 FOMC(예상 금리 3.75% 동결)와 Core PCE(0.1%), Advance GDP(2.3%) 결과가 주중 방향성을 결정합니다. 반도체 대형주는 실적 모멘텀이 유효하나 고밸류 성장·양자주는 조정 지속 리스크가 있어 대형주 위주 방어적 대응이 필요합니다. 중동·유가 안정 여부와 원/달러 1,458원 고환율을 함께 점검하며 현금 비중을 관리하는 것이 바람직합니다.</div></div>
+
+<div class="outlook-item sf"><div class="con-dot dot-b"></div><div class="outlook-text">07/30 FOMC 성명·기자회견 톤이 이번주 최대 변수, 매파/비둘기 여부 확인</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-g"></div><div class="outlook-text">반도체(삼성전자·SK하이닉스·마이크론) AI 메모리 강세 지속 여부 주목</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-r"></div><div class="outlook-text">코스닥 성장·양자주(IONQ·QS) 조정 지속 리스크 경계</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-a"></div><div class="outlook-text">유가·중동 정세와 원/달러 1,458원 고환율 흐름 점검</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-b"></div><div class="outlook-text">07/31 BOJ 정책 결정, 엔화·니케이 변동성 확대 가능</div></div>
+
+
+<!-- 섹터 로테이션 -->
+<div class="sec-lbl sf">🔄 섹터 로테이션</div>
+<div class="sector-grid sf"><div class="sector-col sector-strong"><div class="sector-label">▲ 강세</div><span class="sector-tag">· 반도체(메모리)</span><span class="sector-tag">· IT부품(MLCC)</span></div><div class="sector-col sector-weak"><div class="sector-label">▼ 약세</div><span class="sector-tag">· 양자컴퓨팅</span><span class="sector-tag">· 차세대배터리</span></div><div class="sector-col sector-watch"><div class="sector-label">👁 주목</div><span class="sector-tag">· AI 인프라</span><span class="sector-tag">· 자동차</span></div></div>
+
+
+<!-- 이번주 경제 캘린더 -->
+<div class="sec-lbl sf">🗓️ 이번주 주요 경제 일정</div>
+<div class="cal-item sf"><span class="cal-date">07/30 Thu</span><span class="cal-country">USD</span><span class="cal-title">Federal Funds Rate</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30 Thu</span><span class="cal-country">USD</span><span class="cal-title">FOMC Statement</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30 Thu</span><span class="cal-country">USD</span><span class="cal-title">FOMC Press Conference</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30 Thu</span><span class="cal-country">USD</span><span class="cal-title">Advance GDP q/q</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30 Thu</span><span class="cal-country">USD</span><span class="cal-title">Core PCE Price Index m/m</span></div>
+<div class="cal-item sf"><span class="cal-date">07/31 Fri</span><span class="cal-country">JPY</span><span class="cal-title">BOJ Policy Rate</span></div>
+<div class="cal-item sf"><span class="cal-date">07/31 Fri</span><span class="cal-country">JPY</span><span class="cal-title">Monetary Policy Statement</span></div>
+<div class="cal-item sf"><span class="cal-date">07/31 Fri</span><span class="cal-country">JPY</span><span class="cal-title">BOJ Outlook Report</span></div>
+<div class="cal-item sf"><span class="cal-date">07/31 Fri</span><span class="cal-country">JPY</span><span class="cal-title">BOJ Press Conference</span></div>
+
+
+<!-- 이벤트 시나리오 -->
+<div class="sec-lbl sf">💡 주요 이벤트 시나리오</div><div class="cal-item sf"><span class="cal-date">07/30</span><span class="cal-title" style="font-weight:600">FOMC 금리결정·기자회견</span><span class="cal-scenario">동결(3.75%)+비둘기 시그널 시 강세, 인플레 경계 시 약세</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30</span><span class="cal-title" style="font-weight:600">Core PCE m/m (예측 0.1%)</span><span class="cal-scenario">0.1% 이하 시 금리인하 기대로 강세, 상회 시 약세</span></div>
+<div class="cal-item sf"><span class="cal-date">07/30</span><span class="cal-title" style="font-weight:600">Advance GDP q/q (예측 2.3%)</span><span class="cal-scenario">예상 부합·상회 시 경기 견조 확인 강세</span></div>
+<div class="cal-item sf"><span class="cal-date">07/31</span><span class="cal-title" style="font-weight:600">BOJ 정책금리·전망보고서</span><span class="cal-scenario">긴축 시사 시 엔 강세·니케이 약세 압력</span></div>
+
+
+<!-- 실적 발표 일정 -->
+<div class="sec-lbl sf">📅 실적 발표 일정</div>
+<div class="earn-item sf"><span class="earn-name">AMD (AMD)</span><span class="earn-date">08/05 (D-9)</span></div>
+<div class="earn-item sf"><span class="earn-name">아이온큐 (IONQ)</span><span class="earn-date">08/06 (D-10)</span></div>
+
+
+<!-- 리스크 / 기회 -->
+<div class="sec-lbl sf">⚖️ 리스크 vs 기회</div>
+<div class="risk-opp-grid"><div class="risk-box sf"><div class="ro-label">⚠️ 주요 리스크</div><div class="ro-item"><span class="ro-bullet">·</span>07/30 FOMC 매파적 서프라이즈 시 성장주 추가 조정 가능</div><div class="ro-item"><span class="ro-bullet">·</span>중동 긴장 재점화 및 유가 $100 재돌파 시 위험자산 급락</div><div class="ro-item"><span class="ro-bullet">·</span>원/달러 1,457.98원 고환율 지속에 따른 외국인 수급 이탈</div></div><div class="opp-box sf"><div class="ro-label">✨ 기회 요인</div><div class="ro-item"><span class="ro-bullet">·</span>미·이란 공격 중단에 따른 유가 안정·위험선호 회복</div><div class="ro-item"><span class="ro-bullet">·</span>AI 메모리 수요 확대로 반도체 대형주 실적 모멘텀 유효</div><div class="ro-item"><span class="ro-bullet">·</span>AMD(08/05)·아이온큐(08/06) 실적 시즌 대비 선별 매수 기회</div></div></div>
+
+
+<!-- 미국 종목 주간 뷰 -->
+<div class="sec-lbl sf">🇺🇸 미국 관심종목 주간 뷰</div>
+<div class="stock-view-row sf"><span class="sv-code">MU</span><span class="sv-name">마이크론</span><span class="sv-view">주간 +8.48%로 AI 메모리 수요 기대 최상위, 관심종목 중 최강 모멘텀</span><span class="sv-chg up">▲8.5%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">NVDA</span><span class="sv-name">엔비디아</span><span class="sv-view">주간 +1.99%로 상대적 안정, AI 대장주 지위 유지하며 견조</span><span class="sv-chg up">▲2.0%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">AMD</span><span class="sv-name">AMD</span><span class="sv-view">주간 +5.28% 강세, 08/05 실적발표(D-9) 앞두고 기대감 반영</span><span class="sv-chg up">▲5.3%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">IONQ</span><span class="sv-name">아이온큐</span><span class="sv-view">주간 ▼5.58% 약세, 08/06 실적발표(D-10) 전 성장주 조정 지속</span><span class="sv-chg down">▼5.6%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">QS</span><span class="sv-name">퀀텀스케이프</span><span class="sv-view">주간 ▼16.64% 급락, 고밸류 테마 이탈로 변동성 극심</span><span class="sv-chg down">▼16.6%</span></div>
+
+
+<!-- 한국 종목 주간 뷰 -->
+<div class="sec-lbl sf">🇰🇷 한국 관심종목 주간 뷰</div>
+<div class="stock-view-row sf"><span class="sv-code">005930</span><span class="sv-name">삼성전자</span><span class="sv-view">주간 +5.33%로 지수 하락 속 차별화, 반도체 회복 기대 반영</span><span class="sv-chg up">▲5.3%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">000660</span><span class="sv-name">SK하이닉스</span><span class="sv-view">주간 +2.38% 상승, 1,806,000원 고점권에서 AI 메모리 강세 지속</span><span class="sv-chg up">▲2.4%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">009150</span><span class="sv-name">삼성전기</span><span class="sv-view">주간 +7.61%로 관심종목 중 최강, MLCC 수요 기대 반영</span><span class="sv-chg up">▲7.6%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">454910</span><span class="sv-name">두산로보틱스</span><span class="sv-view">주간 +5.66% 반등, 코스닥 급락 속에서도 로봇 테마 견조</span><span class="sv-chg up">▲5.7%</span></div>
+
+
 <div class="footer sf">
-  2026년 7월 22일 기준 &nbsp;·&nbsp; 코스피 6,748 (+3.56%)<br>
-  한국: 삼성전자 +6.15% · SK하이닉스 +4.08% · ISC +2.65% · 삼성전기 +2.75% · 현대차 +0.00% · 두산로보틱스 +3.40%<br>미국: 마이크론 +12.17% · 엔비디아 +1.97% · AMD +8.11% · SOXX(반도체ETF) +5.45%<br>
+  2026년 7월 31주차 &nbsp;·&nbsp; 2026년 7월 27일 기준<br>
   본 브리핑은 투자 조언이 아니며 AI 자동 수집 데이터 기반 참고 자료입니다<br>
-  <code style="background:var(--bg3);padding:1px 6px;border-radius:2px;font-size:10px">C:\Users\youna\Downloads\briefing_20260722.html</code>
+  <code style="background:var(--bg3);padding:1px 6px;border-radius:2px;font-size:10px">C:\Users\youna\Downloads\weekly_briefing_20260727.html</code>
 </div>
-</div>
-<script>
-function switchHistory(btn,id){
-  document.querySelectorAll('.htab').forEach(b=>b.classList.remove('on'));
-  document.querySelectorAll('.history-panel').forEach(p=>p.classList.remove('on'));
-  btn.classList.add('on'); document.getElementById(id).classList.add('on');
-}
-function togglePanel(id){
-  document.querySelectorAll('.sec-detail').forEach(d=>d.classList.remove('on'));
-  document.getElementById(id).classList.add('on');
-}
-function toggleStk(id){
-  const d=document.getElementById(id),arr=document.getElementById('a-'+id);
-  const wasOn=d.classList.contains('on');
-  document.querySelectorAll('.stk-detail').forEach(x=>x.classList.remove('on'));
-  document.querySelectorAll('.expand-arr').forEach(x=>x.classList.remove('on'));
-  if(!wasOn){d.classList.add('on');if(arr)arr.classList.add('on');}
-}
-function toggleChk(el){el.querySelector('.chk-box').classList.toggle('checked');}
-const dk=window.matchMedia('(prefers-color-scheme:dark)').matches;
-const tc=dk?'#9ca3af':'#8a8a84';
-const gc=dk?'rgba(255,255,255,0.05)':'rgba(0,0,0,0.04)';
-const mkC=arr=>arr.map(v=>v>=0?'#15803d':'#b91c1c');
-const bOpt=(mn,mx)=>({
-  responsive:true,maintainAspectRatio:false,
-  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'%'}}},
-  scales:{
-    x:{ticks:{color:tc,font:{size:10,family:'system-ui,sans-serif'}},grid:{display:false}},
-    y:{min:mn,max:mx,ticks:{color:tc,font:{size:9},callback:v=>v+'%'},grid:{color:gc}}
-  }
-});
 
-window.addEventListener('load',()=>{
-  const kD=[6.15, 4.08, 2.65, 2.75, 0.0, 3.4], kL=["삼성전자", "SK하이닉스", "ISC", "삼성전기", "현대차", "두산로보틱스"];
-  const kMin=Math.min(...kD)-1, kMax=Math.max(...kD)+1;
-  new Chart(document.getElementById('krMainChart'),{type:'bar',data:{labels:kL,datasets:[{data:kD,backgroundColor:mkC(kD),borderRadius:3,barThickness:18}]},options:bOpt(kMin,kMax)});
-  new Chart(document.getElementById('krSubChart'),{type:'bar',data:{labels:kL,datasets:[{data:kD,backgroundColor:mkC(kD),borderRadius:3,barThickness:18}]},options:bOpt(kMin,kMax)});
-  const uD=[12.17, 1.97, 8.11, 5.45, 3.71, 2.72, 4.29], uL=["마이크론", "엔비디아", "AMD", "SOXX(반도체ETF)", "아이온큐", "퀀텀스케이프", "Planet Labs"];
-  const uMin=Math.min(...uD)-1, uMax=Math.max(...uD)+1;
-  new Chart(document.getElementById('usChart'),{type:'bar',data:{labels:uL,datasets:[{data:uD,backgroundColor:mkC(uD),borderRadius:3,barThickness:14}]},options:bOpt(uMin,uMax)});
-});
-</script>
+</div>
 </body>
 </html>
