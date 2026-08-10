@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주간 시장 브리핑 | 2026년 8월 33주차</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fafaf8;--bg2:#f2f1ed;--bg3:#e8e7e2;--text:#111110;--text2:#4a4a46;--text3:#8a8a84;--border:#d4d3cd;--border2:#b8b7b0;--up:#15803d;--upbg:#f0fdf4;--uptxt:#14532d;--down:#b91c1c;--downbg:#fef2f2;--downtxt:#7f1d1d;--neu:#6b7280;--neubg:#f3f4f6;--accent:#1a1a18;--blue:#1d4ed8;--bluebg:#eff6ff;--bluetxt:#1e40af;--amber:#854f0b;--amberbg:#fffbeb}
+@media(prefers-color-scheme:dark){:root{--bg:#141412;--bg2:#1c1c1a;--bg3:#252523;--text:#f0ede8;--text2:#a8a8a2;--text3:#6a6a64;--border:#2e2e2a;--border2:#3e3e3a;--accent:#f0ede8;--upbg:#052e16;--uptxt:#4ade80;--downbg:#450a0a;--downtxt:#f87171;--neubg:#252523;--bluebg:#1e3a5f;--bluetxt:#93c5fd;--amberbg:#451a03}}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.7}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px 40px}
+.sf{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.paper-header{border-bottom:3px solid var(--accent);border-top:1px solid var(--accent);padding:14px 0 10px;text-align:center}
+.paper-name{font-size:11px;font-weight:400;letter-spacing:.25em;color:var(--text3);text-transform:uppercase}
+.paper-date{font-size:11px;color:var(--text3);margin-top:2px}
+.paper-rule{border:none;border-top:1px solid var(--border2);margin:4px 0}
+/* 주간 수익률 테이블 */
+.perf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+.perf-card{background:var(--bg2);border-radius:6px;padding:12px;border:1px solid var(--border)}
+.perf-name{font-size:10px;color:var(--text3);font-family:-apple-system,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.perf-val{font-size:18px;font-weight:700;color:var(--accent);margin-top:4px}
+.perf-chg{font-size:12px;font-weight:600;margin-top:2px}
+.up{color:var(--up)}.down{color:var(--down)}.neu{color:var(--neu)}
+/* 섹션 레이블 */
+.sec-lbl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);padding-bottom:6px;border-bottom:1px solid var(--border);margin:20px 0 10px}
+/* 하이라이트 카드 */
+.highlight-card{border:1px solid var(--border);border-radius:6px;padding:12px 14px;margin-bottom:8px}
+.hl-title{font-size:13px;font-weight:700;color:var(--text);margin-bottom:4px}
+.hl-detail{font-size:12px;color:var(--text2);line-height:1.65}
+/* 이번주 전망 */
+.strategy-box{background:var(--bg2);border-left:3px solid var(--accent);padding:14px 16px;margin:12px 0;border-radius:0 6px 6px 0}
+.strategy-text{font-size:13px;color:var(--text2);line-height:1.75}
+/* 전략 포인트 */
+.outlook-item{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:flex-start}
+.outlook-item:last-child{border-bottom:none}
+.con-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:6px}
+.dot-g{background:var(--up)}.dot-r{background:var(--down)}.dot-b{background:#3b82f6}.dot-a{background:#d97706}
+.outlook-text{font-size:12px;color:var(--text2);line-height:1.55}
+/* 캘린더 */
+.cal-item{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:baseline}
+.cal-date{font-size:10px;font-weight:700;color:var(--blue);font-family:-apple-system,sans-serif;min-width:52px}
+.cal-country{font-size:9px;background:var(--bg3);padding:1px 5px;border-radius:2px;color:var(--text3);font-family:-apple-system,sans-serif}
+.cal-title{font-size:12px;color:var(--text2);flex:1}
+.cal-scenario{font-size:11px;color:var(--text3);font-style:italic}
+/* 실적 */
+.earn-item{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px dotted var(--border)}
+.earn-name{font-size:12px;font-weight:600;color:var(--text)}
+.earn-date{font-size:11px;color:var(--blue);font-family:-apple-system,sans-serif}
+/* 섹터 로테이션 */
+.sector-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}
+.sector-col{border-radius:6px;padding:10px 12px}
+.sector-strong{background:var(--upbg);border:1px solid #bbf7d0}
+.sector-weak{background:var(--downbg);border:1px solid #fecaca}
+.sector-watch{background:var(--amberbg);border:1px solid #fde68a}
+.sector-label{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;font-family:-apple-system,sans-serif}
+.sector-strong .sector-label{color:var(--uptxt)}
+.sector-weak .sector-label{color:var(--downtxt)}
+.sector-watch .sector-label{color:var(--amber)}
+.sector-tag{font-size:11px;color:var(--text2);display:block;padding:2px 0}
+/* 종목 뷰 */
+.stock-view-row{display:flex;gap:10px;padding:7px 0;border-bottom:1px dotted var(--border);align-items:baseline}
+.sv-code{font-size:10px;font-weight:700;color:var(--text3);min-width:70px;font-family:-apple-system,sans-serif}
+.sv-name{font-size:11px;font-weight:700;color:var(--text);min-width:80px}
+.sv-view{font-size:12px;color:var(--text2);flex:1}
+.sv-chg{font-size:11px;font-weight:600;min-width:55px;text-align:right;font-family:-apple-system,sans-serif}
+/* 리스크/기회 */
+.risk-opp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}
+.risk-box{background:var(--downbg);border:1px solid #fecaca;border-radius:6px;padding:12px}
+.opp-box{background:var(--upbg);border:1px solid #bbf7d0;border-radius:6px;padding:12px}
+.ro-label{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;font-family:-apple-system,sans-serif}
+.risk-box .ro-label{color:var(--downtxt)}.opp-box .ro-label{color:var(--uptxt)}
+.ro-item{font-size:12px;color:var(--text2);padding:3px 0;display:flex;gap:6px}
+.ro-bullet{flex-shrink:0;color:var(--text3)}
+/* 푸터 */
+.footer{font-size:10px;color:var(--text3);text-align:center;padding:14px 0;border-top:1px solid var(--border);line-height:1.8;margin-top:24px}
+@media(max-width:640px){.perf-grid{grid-template-columns:repeat(2,1fr)}.sector-grid{grid-template-columns:1fr}.risk-opp-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="paper-header">
+  <div class="paper-name sf">Weekly Market Briefing</div>
+  <div class="paper-date sf">2026년 8월 33주차 &nbsp;·&nbsp; 2026년 8월 10일 기준 &nbsp;·&nbsp; AI 자동 생성</div>
+</div>
+<hr class="paper-rule">
+
+<!-- 이번주 테마 -->
+<div style="padding:16px 0 10px;border-bottom:2px solid var(--accent)">
+  <div style="font-size:22px;font-weight:700;line-height:1.3;letter-spacing:-.3px;color:var(--accent)">코스피 -5.10% 급락 속 코스닥 +10.98% 폭등, 8/12 CPI가 방향 결정</div>
+  <div style="font-size:13px;color:var(--text2);margin-top:8px;line-height:1.6">지난주 국내 증시는 극심한 양극화를 보였습니다. 코스피는 주간 5.10% 하락한 6,258.77을 기록하며 SK하이닉스(-9.06%)·삼성전자(-2.51%) 등 대형 반도체 부진에 눌린 반면, 코스닥은 10.98% 폭등한 798.81로 마감했습니다. 미국 증시는 나스닥 +5.19%, S&P500 +3.58%로 반도체·기술주 강세가 이어졌으며 엔비디아는 주간 11.56% 급등했습니다. 원/달러는 1,410.18원, 금은 $4,400.30, WTI는 $78.85로 인플레이션 압력 요인이 상존합니다.</div>
+</div>
+
+<!-- 매크로 현황 -->
+<div style="display:flex;gap:24px;flex-wrap:wrap;margin:8px 0" class="sf"><span style="font-size:12px;color:var(--text2)">🇺🇸10년물 <b>4.660%</b></span><span style="font-size:12px;color:var(--text2)">WTI <b>$78.85</b></span><span style="font-size:12px;color:var(--text2)">금 <b>$4,400</b></span><span style="font-size:12px;color:var(--text2)">원/달러 <b>1,410원</b></span><span style="font-size:12px;color:var(--text2)">Fear&Greed <b>63.7 greed</b></span></div>
+
+
+<!-- 지난주 시장 수익률 -->
+<div class="sec-lbl sf">📊 지난주 시장 수익률</div>
+<div class="perf-grid">
+<div class="perf-card sf"><div class="perf-name">코스피</div><div class="perf-val">6,258.77</div><div class="perf-chg down">▼ 5.10% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">코스닥</div><div class="perf-val">798.81</div><div class="perf-chg up">▲ 10.98% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">다우</div><div class="perf-val">54,036.93</div><div class="perf-chg up">▲ 2.96% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">S&P 500</div><div class="perf-val">7,757.64</div><div class="perf-chg up">▲ 3.58% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">나스닥</div><div class="perf-val">26,690.62</div><div class="perf-chg up">▲ 5.19% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">니케이225</div><div class="perf-val">65,606.71</div><div class="perf-chg up">▲ 1.93% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">상해종합</div><div class="perf-val">3,940.04</div><div class="perf-chg up">▲ 2.81% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">항셍</div><div class="perf-val">25,668.03</div><div class="perf-chg down">▼ 0.84% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">DAX</div><div class="perf-val">26,319.45</div><div class="perf-chg up">▲ 2.69% (주간)</div></div>
+<div class="perf-card sf"><div class="perf-name">FTSE100</div><div class="perf-val">10,901.10</div><div class="perf-chg up">▲ 0.30% (주간)</div></div>
+</div>
+
+<!-- 지난주 핵심 이벤트 -->
+<div class="sec-lbl sf">🔑 지난주 핵심 이벤트</div>
+<div class="highlight-card"><div class="hl-title sf">📉 코스피 주간 -5.10%, 반도체 대형주 급락</div><div class="hl-detail">SK하이닉스가 주간 9.06% 하락하며 코스피 급락을 주도했습니다. 삼성전자도 -2.51%로 부진해 지수 하방 압력을 키웠습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">📈 코스닥 +10.98% 폭등, 중소형·성장주 순환매</div><div class="hl-detail">코스닥이 798.81까지 급등하며 대형주 부진과 대조를 이뤘습니다. 삼성전기(+11.43%), 두산로보틱스(+8.23%) 등이 강세를 보였습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">🌐 미국 기술주 랠리, 나스닥 +5.19%</div><div class="hl-detail">엔비디아 +11.56%, 마이크론 +6.63%, SOXX +7.60%로 반도체가 미국 증시를 견인했습니다. 아이온큐(+21.93%)·퀀텀스케이프(+16.48%) 등 테마주도 급등했습니다.</div></div>
+<div class="highlight-card"><div class="hl-title sf">⚡ 7월 미국 고용 서프라이즈 감소, 9월 인상 확률 급락</div><div class="hl-detail">7월 미국 일자리가 예상과 달리 2만3천건 감소하며 노동시장 둔화 신호가 나왔습니다. 이에 9월 연준 금리인상 가능성이 크게 후퇴했습니다.</div></div>
+
+
+<!-- 주말 이슈 -->
+<div class="sec-lbl sf">📰 주말 글로벌 이슈</div>
+<div class="highlight-card"><div class="hl-title sf">📰 [BBC Business] 7월 미국 고용 예상 밖 감소, 여름 둔화 지속</div><div class="hl-detail" style="color:var(--text3)">금리인하 기대 강화, 위험자산 우호적 환경</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [CNBC] 7월 고용 부진에 9월 연준 인상 확률 급락</div><div class="hl-detail" style="color:var(--text3)">달러 약세·기술주 강세 지지 요인</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [BBC Business] 트럼프, 중국 견제 위해 핵심 반도체 소재에 15% 관세</div><div class="hl-detail" style="color:var(--text3)">국내 소재·부품주 변동성 확대 우려</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [MarketWatch] 미 증시 선물, CPI 대기·이란 불확실성에 소폭 하락</div><div class="hl-detail" style="color:var(--text3)">월요일 관망세, 호르무즈 리스크로 유가 경계</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [CNBC] 버크셔 실적 개선, 아벨 CEO 현금 투입 시작</div><div class="hl-detail" style="color:var(--text3)">가치·경기민감주 투자심리 개선</div></div>
+<div class="highlight-card"><div class="hl-title sf">📰 [MarketWatch] S&P500 매출 성장 5년래 최고, 에너지 매출 +42.5%</div><div class="hl-detail" style="color:var(--text3)">실적 펀더멘털 견조, 에너지 섹터 주목</div></div>
+
+
+<!-- 이번주 전략 -->
+<div class="sec-lbl sf">🎯 이번주 전략</div>
+<div class="strategy-box"><div class="strategy-text">8/12 CPI와 8/13 PPI가 이번 주 방향을 결정합니다. 7월 고용 부진으로 금리인하 기대가 강해진 만큼 CPI가 예측치(y/y 3.4%)에 부합하거나 하회하면 기술주 랠리가 이어질 수 있습니다. 다만 국내는 반도체 대형주와 코스닥 간 순환매 극심으로 종목 선별이 중요합니다.</div></div>
+
+<div class="outlook-item sf"><div class="con-dot dot-r"></div><div class="outlook-text">8/12 CPI y/y 3.4% 예상 — 상회 시 금리 반등·기술주 조정 위험</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-g"></div><div class="outlook-text">고용 둔화로 9월 인상 우려 완화, 위험자산 우호적 흐름</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-a"></div><div class="outlook-text">코스피 대형 반도체(SK하이닉스 -9.06%) 저가 매수 vs 추가 조정 판단 분기점</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-b"></div><div class="outlook-text">이란·호르무즈 지정학 리스크와 WTI $78.85 유가 흐름 모니터링</div></div>
+<div class="outlook-item sf"><div class="con-dot dot-a"></div><div class="outlook-text">코스닥 +10.98% 급등 후 차익실현 매물 출회 가능성 경계</div></div>
+
+
+<!-- 섹터 로테이션 -->
+<div class="sec-lbl sf">🔄 섹터 로테이션</div>
+<div class="sector-grid sf"><div class="sector-col sector-strong"><div class="sector-label">▲ 강세</div><span class="sector-tag">· 코스닥 중소형·성장주</span><span class="sector-tag">· 미국 반도체(엔비디아·마이크론)</span><span class="sector-tag">· 양자컴퓨팅 테마</span></div><div class="sector-col sector-weak"><div class="sector-label">▼ 약세</div><span class="sector-tag">· 국내 대형 메모리 반도체(SK하이닉스)</span></div><div class="sector-col sector-watch"><div class="sector-label">👁 주목</div><span class="sector-tag">· 에너지(매출 +42.5%)</span><span class="sector-tag">· 국내 부품·소재(삼성전기·ISC)</span></div></div>
+
+
+<!-- 이번주 경제 캘린더 -->
+<div class="sec-lbl sf">🗓️ 이번주 주요 경제 일정</div>
+<div class="cal-item sf"><span class="cal-date">08/12 Wed</span><span class="cal-country">USD</span><span class="cal-title">Core CPI m/m</span></div>
+<div class="cal-item sf"><span class="cal-date">08/12 Wed</span><span class="cal-country">USD</span><span class="cal-title">Core CPI y/y</span></div>
+<div class="cal-item sf"><span class="cal-date">08/12 Wed</span><span class="cal-country">USD</span><span class="cal-title">CPI m/m</span></div>
+<div class="cal-item sf"><span class="cal-date">08/12 Wed</span><span class="cal-country">USD</span><span class="cal-title">CPI y/y</span></div>
+<div class="cal-item sf"><span class="cal-date">08/13 Thu</span><span class="cal-country">USD</span><span class="cal-title">Core PPI m/m</span></div>
+<div class="cal-item sf"><span class="cal-date">08/13 Thu</span><span class="cal-country">USD</span><span class="cal-title">PPI m/m</span></div>
+
+
+<!-- 이벤트 시나리오 -->
+<div class="sec-lbl sf">💡 주요 이벤트 시나리오</div><div class="cal-item sf"><span class="cal-date">08/12</span><span class="cal-title" style="font-weight:600">미국 CPI y/y (예측 3.4%)</span><span class="cal-scenario">3.4% 하회 시 기술주 강세 / 상회 시 조정</span></div>
+<div class="cal-item sf"><span class="cal-date">08/12</span><span class="cal-title" style="font-weight:600">미국 Core CPI y/y (예측 2.5%)</span><span class="cal-scenario">예측 부합 시 금리인하 기대 유지</span></div>
+<div class="cal-item sf"><span class="cal-date">08/13</span><span class="cal-title" style="font-weight:600">미국 Core PPI m/m (예측 0.3%)</span><span class="cal-scenario">상회 시 인플레 재점화 우려 부각</span></div>
+<div class="cal-item sf"><span class="cal-date">08/27</span><span class="cal-title" style="font-weight:600">엔비디아 실적 (D-17)</span><span class="cal-scenario">AI 수요 확인 시 반도체 전반 재평가</span></div>
+
+
+<!-- 실적 발표 일정 -->
+<div class="sec-lbl sf">📅 실적 발표 일정</div>
+<div class="earn-item sf"><span class="earn-name">엔비디아 (NVDA)</span><span class="earn-date">08/27 (D-17)</span></div>
+<div class="earn-item sf"><span class="earn-name">Planet Labs (PL)</span><span class="earn-date">09/04 (D-25)</span></div>
+
+
+<!-- 리스크 / 기회 -->
+<div class="sec-lbl sf">⚖️ 리스크 vs 기회</div>
+<div class="risk-opp-grid"><div class="risk-box sf"><div class="ro-label">⚠️ 주요 리스크</div><div class="ro-item"><span class="ro-bullet">·</span>8/12 CPI 예측치(3.4%) 상회 시 금리 반등 및 기술주 조정</div><div class="ro-item"><span class="ro-bullet">·</span>이란·호르무즈 해협 지정학 불확실성에 따른 유가 변동성</div><div class="ro-item"><span class="ro-bullet">·</span>미국의 반도체 소재 15% 관세로 국내 소재·부품 공급망 부담</div></div><div class="opp-box sf"><div class="ro-label">✨ 기회 요인</div><div class="ro-item"><span class="ro-bullet">·</span>7월 고용 부진으로 9월 인상 확률 급락, 금리인하 기대에 따른 위험자산 우호</div><div class="ro-item"><span class="ro-bullet">·</span>미국 반도체 랠리(SOXX +7.60%) 낙수효과로 국내 반도체 반등 가능성</div><div class="ro-item"><span class="ro-bullet">·</span>S&P500 매출 5년래 최고 등 실적 펀더멘털 견조로 조정 시 매수 기회</div></div></div>
+
+
+<!-- 미국 종목 주간 뷰 -->
+<div class="sec-lbl sf">🇺🇸 미국 관심종목 주간 뷰</div>
+<div class="stock-view-row sf"><span class="sv-code">MU</span><span class="sv-name">마이크론</span><span class="sv-view">주간 +6.63%로 반도체 랠리 동참, CPI 결과에 따른 변동성 유의</span><span class="sv-chg up">▲6.6%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">NVDA</span><span class="sv-name">엔비디아</span><span class="sv-view">주간 +11.56% 강세, 8/27 실적 앞두고 기대감 선반영 국면</span><span class="sv-chg up">▲11.6%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">AMD</span><span class="sv-name">AMD</span><span class="sv-view">주간 +1.51%로 상대적 부진, 반도체 순환매 후발주로 주목</span><span class="sv-chg up">▲1.5%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">SOXX</span><span class="sv-name">반도체ETF</span><span class="sv-view">주간 +7.60%로 섹터 전반 강세 확인, 조정 시 분할 접근</span><span class="sv-chg up">▲7.6%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">IONQ</span><span class="sv-name">아이온큐</span><span class="sv-view">주간 +21.93% 급등, 테마 과열 구간으로 변동성 관리 필요</span><span class="sv-chg up">▲21.9%</span></div>
+
+
+<!-- 한국 종목 주간 뷰 -->
+<div class="sec-lbl sf">🇰🇷 한국 관심종목 주간 뷰</div>
+<div class="stock-view-row sf"><span class="sv-code">000660</span><span class="sv-name">SK하이닉스</span><span class="sv-view">주간 -9.06% 급락으로 코스피 하방 주도, 반등 여부 관건</span><span class="sv-chg down">▼9.1%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">005930</span><span class="sv-name">삼성전자</span><span class="sv-view">주간 -2.51% 조정, 미국 반도체 강세 대비 국내 디커플링 지속</span><span class="sv-chg down">▼2.5%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">009150</span><span class="sv-name">삼성전기</span><span class="sv-view">주간 +11.43% 강세, 부품주 순환매 수혜로 상대 강도 우위</span><span class="sv-chg up">▲11.4%</span></div>
+<div class="stock-view-row sf"><span class="sv-code">454910</span><span class="sv-name">두산로보틱스</span><span class="sv-view">주간 +8.23% 상승, 코스닥 성장주 강세 흐름 편승</span><span class="sv-chg up">▲8.2%</span></div>
+
+
+<div class="footer sf">
+  2026년 8월 33주차 &nbsp;·&nbsp; 2026년 8월 10일 기준<br>
+  본 브리핑은 투자 조언이 아니며 AI 자동 수집 데이터 기반 참고 자료입니다<br>
+  <code style="background:var(--bg3);padding:1px 6px;border-radius:2px;font-size:10px">C:\Users\youna\Downloads\weekly_briefing_20260810.html</code>
+</div>
+
+</div>
+</body>
+</html>
